@@ -6,6 +6,7 @@ Good websites:
 2. https://sugarrushbakery.com.au 
 https://the-sugarless-bakery-7349.myshopify.com
 https://cakesbysarah.com.au
+3. https://www.crust.com.au/#range
 
 Bad websites:
 1. https://torontocupcake.com/index.html
