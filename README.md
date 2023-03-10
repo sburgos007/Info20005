@@ -9,12 +9,12 @@ https://cakesbysarah.com.au
 3. https://www.crust.com.au/#range
 
 Bad websites:
-1. https://torontocupcake.com/index.html
-2. https://www.kenwickpizza.com.au/bookonline.php 
+1. https://www.kenwickpizza.com.au/bookonline.php 
+2. https://cremornestreetbakers.com.au/cart
 
 idk websites:
 https://mandurah-steak-house.business.site/?utm_source=gmb&utm_medium=referral#details 
-https://cremornestreetbakers.com.au/pages/product-range 
+
 https://her-little-patisserie.square.site/?location=11ec616bb14d747c97e4ac1f6bbba828
 
 design webs:
