@@ -2,15 +2,12 @@
 
 Possible Website Options
 Good websites:
-1. https://www.joesbakery.com.au
-2. https://sugarrushbakery.com.au 
-https://the-sugarless-bakery-7349.myshopify.com
-https://cakesbysarah.com.au
-3. https://www.crust.com.au/#range
+1. https://www.crust.com.au/#range - Sari 
+2. https://www.grilld.com.au - Sean 
 
 Bad websites:
-1. https://www.kenwickpizza.com.au/bookonline.php 
-2. https://cremornestreetbakers.com.au/cart
+1. https://www.kenwickpizza.com.au/bookonline.php - Sari
+2. https://cremornestreetbakers.com.au/cart - Sean 
 3. really bad https://torontocupcake.com/index.html
 
 idk websites:
