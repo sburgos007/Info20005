@@ -78,25 +78,36 @@ nav-links{
     color: #fdf9ed;
 }
 
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
 .bestsellers{
     background-color: #1a6a5e;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-basis: 50%;
 }
 
-.sidebar{
-    flex-basis: 40rem;
-    flex-grow: 1;
+.bestsellers-col2{
+    text-align: center;
+    color: #fdf9ed;
+    padding-right: 9%;
 }
 
-.sidebar img{
-    align-items: center;
+.bestsellers-col1 img{
+    margin:auto;
+    width: 80%;
+    height: 100%;
+
+}
+.bestsellers-col2 img{
+    width: 75%;
 }
 
-.notsidebar{
-    flex-basis: 0;
-    flex-grow: 999;
-    min-width: 50%;
+.bestsellers-col2 h2{
+    padding-top: 10%;
 }
 
+.bestsellers-col2 h3{
+    padding-top: 5px;
+}
