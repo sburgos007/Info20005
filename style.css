@@ -7,7 +7,7 @@
     height: 120px;
     width: 100%;
     background-color: #fdf9ed;
-    text-align: center;
+    text-align: center;;
 }
 
 nav{
@@ -81,33 +81,51 @@ nav-links{
 .row{
     display: flex;
     justify-content: space-between;
+    margin-bottom: auto;
+    margin-top: auto;
 }
 
 .bestsellers{
     background-color: #1a6a5e;
     flex-basis: 50%;
+
 }
 
 .bestsellers-col2{
     text-align: center;
     color: #fdf9ed;
-    padding-right: 9%;
+    margin-top: 5%;
+    margin-left: 9%;
 }
 
 .bestsellers-col1 img{
+    image-orientation:flip;
     margin:auto;
-    width: 80%;
+    width: 125%;
     height: 100%;
-
 }
 .bestsellers-col2 img{
-    width: 75%;
+    width: 30%;
 }
 
 .bestsellers-col2 h2{
-    padding-top: 10%;
+    font-size: 40px;
+    margin-bottom: 20px;
 }
 
 .bestsellers-col2 h3{
-    padding-top: 5px;
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.order-btn2{
+    display: inline-block;
+    text-decoration: none;
+    color: #fdf9ed;
+    border: 1px solid #fdf9ed;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 10px 15px;
+    border-radius: 30px;
+    position: relative;
 }
