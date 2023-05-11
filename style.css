@@ -4,6 +4,8 @@
     font-family: 'IBM Plex Mono', monospace;
 }
 
+/*------------header-----------*/
+
 .header{
     height: 120px;
     width: 100%;
@@ -56,6 +58,7 @@ nav-links{
     border-radius: 30px;
 }
 
+/*------------Homepage Page 1-----------*/
 .order-btn{
     color: #fff;
     top: 85%;
@@ -82,6 +85,8 @@ nav-links{
     color: #fdf9ed;
 }
 
+/*------------Banner-----------*/
+
 .promotext{
     color: #fdf9ed;
     text-align: center;
@@ -95,6 +100,8 @@ nav-links{
     background-size: contain;
     position: relative;
 }
+
+/*------------Homepage Bestsellers-----------*/
 
 .row{
     display: flex;
@@ -117,7 +124,6 @@ nav-links{
 }
 
 .bestsellers-col1 img{
-    image-orientation:flip;
     margin:auto;
     width: 125%;
     height: 100%;
@@ -148,26 +154,23 @@ nav-links{
     position: relative;
 }
 
+/*------------Homepage About Us-----------*/
+
 .about .row{
     display:flex;
     align-items: center;
-    gap:10rem;
-    flex-wrap: wrap;
     background-color: #fdf9ed;
 }
 
-.about .row .image-container img{
-    width: 110%;
-    height: 800px;
-    object-fit: cover;
+.image-container img{
+    width: 100%;
+    height: 700px;
 }
 
 .about .row .abouttext{
-    flex: 2rem;
-    margin-top:auto;
-    margin-bottom: auto;
-    padding: 2rem;
-    padding-right: 150px;
+    flex-basis: 25%;
+    margin-right: 10%;
+    margin-left: 10%;
     color: #1a6a5e;
 }
 
@@ -175,14 +178,12 @@ nav-links{
     margin-top: 1rem;
 }
 
+/*------------Footer-----------*/
+
 .cluster {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
     background-color: #1a6a5e;
-    position: absolute;
+    color: #fdf9ed;
 }
 
 .cluster > * {
@@ -190,13 +191,14 @@ nav-links{
 }
 
 .box{
-    flex-direction: column;
-    flex: 1 1 25rem;
-    color: #fdf9ed;
+    flex-basis: 33%;
 }
 
 .socials-icons{
-    width: 20%;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contact {
