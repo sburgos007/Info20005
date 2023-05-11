@@ -6,6 +6,9 @@
 .header{
     height: 120px;
     width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
     background-color: #fdf9ed;
     text-align: center;
 }
@@ -19,7 +22,6 @@ nav{
     margin-left: 5%;
     margin-right: 5%;
 }
-
 
 nav img{
     width: 150px;
@@ -53,29 +55,44 @@ nav-links{
     border-radius: 30px;
 }
 
-.firstpage{
-    min-height:100vh;
-    width: 100%;
-    background-image: url(imageSources/poster1.jpeg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-}
-
 .order-btn{
     color: #fff;
+    top: 85%;
+    left: 3%;
+    width: 20%;
     position:absolute;
-    top: 75%;
-    left: 5%;
     text-align:center;
     background-color: #d9603C;
     padding: 20px 50px;
     border-radius: 50px;
 }
+
+.firstpage{
+    min-height:85vh;
+    width: 100%;
+    background-image: url(imageSources/poster1.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
 .order-btn h1 a{
     font-size: 30px;
     text-decoration: none;
     color: #fdf9ed;
+}
+
+.promotext{
+    color: #fdf9ed;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.promo{
+    height: 60px;
+    width: 100%;
+    background-color: #d9603C;
+    background-size: contain;
+    position: relative;
 }
 
 .row{
