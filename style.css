@@ -163,6 +163,7 @@ nav-links{
 }
 
 .image-container img{
+    display: block;
     width: 100%;
     height: 700px;
 }
@@ -182,8 +183,10 @@ nav-links{
 
 .cluster {
     display: flex;
+    position: absolute;
     background-color: #1a6a5e;
     color: #fdf9ed;
+    margin-top: 0;
 }
 
 .cluster > * {
@@ -208,12 +211,12 @@ nav-links{
 /*----------search------------*/
 
 .categories{
-    display: block;
+    display: inline-block;
     padding-top: 5%;
     min-height:100vh;
     width: 100%;
-    text-align: center;
     background-color: #fdf9ed;
+    text-align: center;
     
 }
 
@@ -222,4 +225,28 @@ nav-links{
     padding-bottom: 5%;
     width: 100%;
     font-size: 20px;
+    position: relative;
+}
+
+.cat-popular img, .cat-burgers img{
+    position: absolute;
+    bottom: -10px;    
+    left: -5%;
+    width: 25%;
+
+}
+.cat-drinks img{
+    position: absolute;
+    bottom: -10px;    
+    left: -5%;
+    width: 35%;
+
+}
+
+.cat-pizza img, .cat-vegan img, .cat-desserts img{
+    position: absolute;
+    bottom: -20px; 
+    right: -5%;
+    width: 25%;
+
 }
