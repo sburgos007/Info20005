@@ -204,3 +204,22 @@ nav-links{
 .contact {
     text-align: right;
 }
+
+/*----------search------------*/
+
+.categories{
+    display: block;
+    padding-top: 5%;
+    min-height:100vh;
+    width: 100%;
+    text-align: center;
+    background-color: #fdf9ed;
+    
+}
+
+.cat-popular, .cat-drinks, .cat-pizza, .cat-burgers, .cat-vegan, .cat-desserts{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+    font-size: 20px;
+}
