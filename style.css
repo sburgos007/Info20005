@@ -2,6 +2,7 @@
     margin: 0 ;
     padding: 0;
     font-family: 'IBM Plex Mono', monospace;
+    text-decoration: none;
 }
 
 /*------------header-----------*/
@@ -28,7 +29,7 @@ nav{
 
 nav img{
     width: 150px;
-    padding-right: 150px;
+    margin-right: 150px;
 }
 
 nav-links{
@@ -38,13 +39,12 @@ nav-links{
 .nav-links ul li{
     list-style: none;
     display: inline-block;
-    padding: 8px 30px;
+    padding: 8px 20px;
     position: relative;
 }
 .nav-links ul li a{
     color: #1a6a5e;
     text-decoration: none;
-    font-size: 13px;
 }
 
 .cart-btn{
@@ -228,25 +228,115 @@ nav-links{
     position: relative;
 }
 
-.cat-popular img, .cat-burgers img{
+.cat-popular a{
+    color: #fdf9ed;
+}
+
+.cat-popular img {
     position: absolute;
-    bottom: -10px;    
+    bottom: -20px;    
     left: -5%;
-    width: 25%;
+    width: 20%;
+}
+
+.cat-burgers img{
+    position: absolute;
+    bottom: -20px;    
+    left: -5%;
+    width: 23%;
 
 }
 .cat-drinks img{
     position: absolute;
-    bottom: -10px;    
+    bottom: -20px;    
     left: -5%;
-    width: 35%;
+    width: 30%;
 
 }
 
 .cat-pizza img, .cat-vegan img, .cat-desserts img{
     position: absolute;
-    bottom: -20px; 
+    bottom: -25px; 
     right: -5%;
-    width: 25%;
+    width: 20%;
 
+}
+
+/*----------menu------------*/
+
+.menu-banner{
+    min-height:30vh;
+    width: 100%;
+    background-image: url(imageSources/background.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.menu-title{
+    color: #fdf9ed;
+    position: absolute;
+    left: 43%;
+    top: 30%;
+    font-size: 50px;
+}
+
+.cat-slider{
+    background-color: #fdf9ed;
+}
+.cat-button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.cat-button p{
+    width: 10%;
+    color: #1a6a5e;
+    text-align: center;
+    border: 1px solid #1a6a5e;
+    border-radius: 40px;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.cat-slider, .cat-carousel{
+    white-space: nowrap;
+}
+
+.menu-list{
+    background-color: #fdf9ed;
+}
+
+.items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.items-box{
+    color: #fdf9ed;
+    background: #1a6a5e;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.items-box img{
+    width:40%;
+    float: left;
+}
+
+.items-box h3 p{
+    float: right;
+    margin-left: 20px;
+    padding-top: 20%;
 }
