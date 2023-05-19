@@ -19,7 +19,7 @@
 
 nav{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
@@ -53,7 +53,6 @@ nav-links{
     color: #fff;
     padding: 12px 34px;
     font-size: 13px;
-    background: #1a6a5e;
     position: relative;
     border-radius: 30px;
 }
@@ -335,8 +334,106 @@ nav-links{
     float: left;
 }
 
+
 .items-box h3 p{
     float: right;
-    margin-left: 20px;
+    padding-left: 20px;
     padding-top: 20%;
 }
+
+/*----------product info------------*/
+
+.product-banner{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.banner-txt{
+    margin-top: 7%;
+}
+
+.product-banner img{
+    width: 110%;
+    position: relative;
+    left: -35%;
+}
+
+.heading{
+    font-size: 70px;
+}
+
+.product-size{
+    margin-top: 15%;
+    margin-bottom: 8%;
+}
+.product-size ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 30px;
+    position: relative;
+}
+
+.size-btn{
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    font-size: 13px;
+    background: transparent;
+    margin-top: 10px;
+}
+
+.cart-btn2{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 100px;
+    font-size: 13px;
+    position: relative;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.addition-title{
+    margin-left: 5%;
+    padding-top: 5%;
+}
+.slider-additions{
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.pineapple{
+    margin-top: 6px;
+}
+.slider-container img{
+    width: 60%;
+}
+.slider-container2 img{
+    width: 50%;
+}
+
+.slider-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.margins{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.return{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-decoration: underline;
+}
+
+
+
