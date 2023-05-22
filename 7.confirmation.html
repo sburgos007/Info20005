@@ -4,43 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kenwick Pizza Chicken Delight</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="colour.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
-    Home 
-    About Us 
-    Menu
-    Pizza Burger...
-    View Cart
+    <section class="header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="1.homepage.html" style="font-size: 20px">Home</a></li>
+                    <li><a href="#" style="font-size: 20px">About Us</a></li>
+                    <li><a href="3.menu.html" style="font-size: 20px">Menu</a></li>
+                </ul>
+            </div>
+            <a href="1.homepage.html"><img src="imageSources/logo.png"></a>
+            <a href="" class="cart-btn bg-green" style="font-size: 20px" >View Cart</a> 
+        </nav>
+    </section>   
+
+    <section class="menu-banner">
+        <div class="title">
+            <h1>Order Recieved!</h1>
+        </div>
+    </section>
+
+    <section class="green bg-white centre">
+        <div class="confirmation">
+            <h2>Thank you for your <br> order, Jeremy!</h2>
+            <p> We’ll message you a shipping confirmation <br> as soon as your order is on its way</p>
+            <h3> Order no. 102 703</h3>
+            <div class="confirm-btn">
+                <h3>Track Order</h3>
+            </div>
+            <div>
+                <h2>Order Summary </h2>
+                <h3>ETA: 6 minutes </h3>
+            </div>
     
-    Order Recieved!
-    Thank you for your order, Jeremy!
-    We’ll message you a shipping confirmation as soon as your order is on its way
-    Order no. 102 703
-    Track Order
-    Back to Home 
+            <table class="centre">
+                <tr>
+                    <th>Subtotal:</th>
+                    <th>$24.75</th>
+                </tr>
+                <tr>
+                    <th>GST:</th>
+                    <th>$2.75</th>
+                </tr>
+                <tr>
+                    <th>Delivery Fee:</th>
+                    <th>$4.00 </th>
+                </tr>
+            </table>
+            <table class="centre border">
+                <tr>
+                    <th>Total:</th>
+                    <th>$31.50</th>
+                </tr>
+            </table>
+            <div class="confirm-btn">
+                <h3>Back to Home</h3>
+            </div>
+        </div>
+    </section>
 
-    Order Summary 
-    ETA: 6 minutes 
+    <footer>
+        <section class="footer">
+            <div class="box-container cluster">
 
-    Total Items 
-    3
-    Subtotal:
-    $24.75
-    GST:
-    $2.75
-    Delivery Fee: $4.00 
-    Total:
-    $31.50 
+                <div class="box hours">
+                    <h3>Opening Hours</h3>
+                    <p style="font-size: 12px">Saturday to Thursday - 5pm to 9pm </p>
+                    <p style="font-size: 12px">Saturday - 5pm to 10pm</p>
+                </div>
 
-    Opening Hours
-    Saturday to Thursday - 5pm to 9pm 
-    Saturday - 5pm to 10pm 
+                <div class="box socials">
+                    <img src="imageSources/icon socials.png" alt="socials icon" class="socials-icons">
+                </div>
 
-    Contact Us 
-    1697 Albany Hwy Cr Royal St 
-    Kenwick 6107
-    (04)94596033
-    online@kenwickpizza.com.au  
+                <div class="box contact">
+                    <h3>Contact Us</h3>
+                    <p style="font-size: 12px">1697 Albany Hwy Cr Royal St</p>
+                    <p style="font-size: 12px">Kenwick 6107</p>
+                    <p style="font-size: 12px">(04)94596033</p>
+                    <p style="font-size: 12px">online@kenwickpizza.com.au</p>
+                </div>
+            </div>
+        </section>
+        
+    </footer>
 </body>
 </html>

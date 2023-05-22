@@ -20,3 +20,9 @@
 .green{
     color: #1a6a5e;
 }
+
+.bg-greenfade{
+    background-color: #1a6a5e;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255,0.2), rgba(26,106,94,1)70%);
+
+}

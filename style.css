@@ -61,14 +61,17 @@ nav-links{
 /*------------Homepage Page 1-----------*/
 .order-btn{
     color: #fff;
+    background-color: #d9603C;
+    padding: 20px 50px;
+    border-radius: 50px;
+}
+
+.btn-pos{
     top: 85%;
     left: 3%;
     width: 20%;
     position:absolute;
     text-align:center;
-    background-color: #d9603C;
-    padding: 20px 50px;
-    border-radius: 50px;
 }
 
 .firstpage{
@@ -111,9 +114,7 @@ nav-links{
 }
 
 .bestsellers{
-    background-color: #1a6a5e;
     flex-basis: 50%;
-
 }
 
 .bestsellers-col2{
@@ -272,11 +273,10 @@ nav-links{
     background-size: cover;
 }
 
-.menu-title{
+.title{
     color: #fdf9ed;
-    position: absolute;
-    left: 43%;
-    top: 30%;
+    text-align: center;
+    padding-top: 5%;
     font-size: 50px;
 }
 
@@ -436,5 +436,58 @@ nav-links{
     text-decoration: underline;
 }
 
+/*----------Confirmation------------*/
+
+.confirmation{
+    border: 1px solid #1a6a5e;
+    border-radius: 40px;
+    padding: 24px 34px;
+    font-size: 13px;
+    background: transparent;
+    margin: 3% 25%;
+}
+
+.centre{
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.confirmation h2{
+    font-size: 30px;
+    margin: 20px;
+}
+
+.confirmation p{
+    margin: 20px;
+}
+
+.confirmation h3{
+    font-size: 20px;
+    margin: 20px;
+}
+
+.confirm-btn{
+    color: #fff;
+    background-color: #d9603C;
+    padding: 2px;
+    border-radius: 50px;
+    margin: 40px 80px;
+}
+
+.confirmation th, td{
+    text-align: justify;
+    width: 85%;
+    height: 30px;
+}
+.confirmation table{
+    margin-bottom: 10px;
+}
+.border{
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 1% 5%;
+}
 
 
