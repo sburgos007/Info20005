@@ -441,19 +441,26 @@ nav-links{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 50px;
+    margin: 60px;
+    margin-left: 100px;
 }
 
 .rightCart{
-    flex-basis: 40rem;
-    flex-grow: 1;
+    /* flex-basis: 0rem;
+    flex-grow: 1; */
+    width: 550px;
+    margin-right: 40px;
+    border: 3px solid #cfdcd0;
+    align-items: center;
+    border-radius: 100px;
 }
 
 .leftCart{
     flex-basis: 0;
-    flex-grow: 999;
+    flex-grow: 1;
+    /* border: 1px solid #1A685E; */
+    align-items: center;
 }
-          
 
 .outer-rectangle {
     width: 550px;
@@ -483,6 +490,7 @@ nav-links{
     color: #fdf9ed;
     text-align: left;
 }
+
 
 /*----------Confirmation------------*/
 
