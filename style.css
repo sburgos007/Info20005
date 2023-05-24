@@ -295,13 +295,14 @@ nav-links{
     width: 10%;
     color: #1a6a5e;
     text-align: center;
-    border: 1px solid #1a6a5e;
+    border: 2px solid #1a6a5e;
     border-radius: 40px;
     padding: 12px 34px;
-    font-size: 13px;
+    font-size: 15px;
+    font-weight: bolder;
     background: transparent;
     margin-top: 3%;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 
 .cat-slider, .cat-carousel{
@@ -312,34 +313,59 @@ nav-links{
     background-color: #fdf9ed;
 }
 
+.menu-divider{
+    width: 550px;
+    height: 1000px;
+}
+
 .items{
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 7%;
+    margin-right: 7%;
+    row-gap: 0.4%;
+    margin-bottom: 7%;
 }
 
 .items-box{
     color: #fdf9ed;
     background: #1a6a5e;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    padding: 20px 12px;
+    border-radius: 20px;
+    margin: auto;
+    /* padding: 20px 12px; */
+    padding-bottom: 42px;
     align-items: center;
-    justify-content: center;
+    font-size: x-small;
+    height: 70.03%;
 }
 
 .items-box img{
     width:40%;
+    margin-top: 0%;
     float: left;
+    background: #fdf9ed;
+    border-radius: 20px 0px 0px 20px;
+    border: 1.5px solid #1a6a5e;
+    align-items: left;
 }
 
 
-.items-box h3 p{
-    float: right;
+.items-box h3{
+    /* float: right; */
+    font-size: x-large;
     padding-left: 20px;
-    padding-top: 20%;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    line-height: 130%;
+    margin-left: 40%;
+}
+
+.items-box p{
+    padding:10px;
+    margin-left: 42.5%;
+    margin-right: 3%;
+    font-size: x-small;
 }
 
 /*----------product info------------*/
@@ -477,6 +503,7 @@ nav-links{
     /* position: absolute; */
     width: 400px;
     height: 112.18px;
+
     margin: center;
     background: #1A685E;
     border-radius: 0px 17px 17px 0px;
@@ -530,6 +557,7 @@ nav-links{
     padding: 2px;
     border-radius: 50px;
     margin: 40px 80px;
+    text-align: center;
 }
 
 .confirmation th, td{
