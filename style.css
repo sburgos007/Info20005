@@ -365,6 +365,13 @@ nav-links{
     border: none;
 }
 
+.icon{
+    position: absolute;
+    bottom: 16px;
+    right: 18px;
+    background-color: transparent;
+}
+
 .items-box h3{
     /* float: right; */
     font-size: x-large;
@@ -392,13 +399,6 @@ nav-links{
     font-size: medium;
 }
 
-.icon{
-    position: absolute;
-    bottom: 16px;
-    right: 18px;
-    background-color: transparent;
-}
-
 .addBtn{
     position: absolute;
     bottom: 16px;
@@ -420,8 +420,6 @@ nav-links{
     text-align: center;
     font-size: larger;
 }
-
-
 
 /*----------product info------------*/
 
@@ -534,6 +532,7 @@ nav-links{
     border: 3px solid #cfdcd0;
     align-items: center;
     border-radius: 100px;
+    color: #1a6a5e;
 }
 
 .leftCart{
@@ -544,18 +543,42 @@ nav-links{
 }
 
 .outer-rectangle {
+    position: relative;
     width: 550px;
     height: 112px;
     border: 1px solid #1A685E;
-    /* margin: auto; */
     margin-top: 25px;
     display: flex;
     justify-content: flex-end;
     border-radius: 20px;
+    line-height: 140%;
+}
+
+.outer-rectangle .addBtn{
+    height: 25px;
+    width: 90px;
+    right: 55px;
+    bottom: 15px;
+    font-size: x-small;
+}
+
+.outer-rectangle .trashicon{
+    position: absolute;
+    bottom: 18px;
+    display: flex;
+    justify-content: flex-end;
+    right: 20px;
+}
+
+.outer-rectangle .trashicon img{
+    width: 4%;
+}
+
+.outer-rectangle h1{
+    font-size: large;
 }
 
 .cartBox{
-    /* position: absolute; */
     width: 400px;
     height: 112.18px;
 
@@ -573,6 +596,53 @@ nav-links{
     text-align: left;
 }
 
+.cartImg {
+    margin: auto;
+    width: 20%;
+}
+
+.promoCode{
+    /* border: 1px solid #1A685E; */
+    color: #fdf9ed;
+    top: 1000px;
+    text-align: left;
+    
+}
+
+.promoCode .outer-rectangle {
+    background: #1A685E;
+    height: 30px;
+}
+
+promoCode .cartBox p{
+    color: #1A685E;
+}
+
+.promoCode .cartBox{
+    background: #fdf9ed;
+    height: 30px;
+    align-content: flex-start;
+}
+
+.cartSummary{
+    border-radius: 40px;
+    padding: 24px 34px;
+    font-size: 13px;
+}
+
+.cartSummary th, td{
+    margin: 20px;
+    text-align: justify;
+    width: 85%;
+    height: 30px;
+}
+
+.cartSummary .confirm-btn{
+    padding: 0.2px;
+    border-radius: 50px;
+    margin: 10px 80px;
+    text-align: center;
+}
 
 /*----------Confirmation------------*/
 
