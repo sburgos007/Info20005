@@ -66,7 +66,7 @@ nav-links{
 }
 
 .btn-pos{
-    top: 85%;
+    bottom: 6%;
     left: 3%;
     width: 20%;
     position:absolute;
@@ -82,18 +82,12 @@ nav-links{
 }
 
 .order-btn h1 a{
-    font-size: 30px;
+    font-size: 100%;
     text-decoration: none;
     color: #fdf9ed;
 }
 
 /*------------Banner-----------*/
-
-.promotext{
-    color: #fdf9ed;
-    text-align: center;
-    padding-top: 10px;
-}
 
 .promo{
     height: 60px;
@@ -101,6 +95,31 @@ nav-links{
     background-color: #d9603C;
     background-size: contain;
     position: relative;
+    white-space: nowrap;
+}
+
+.promo div{
+    display: flex;
+    gap: 3em;
+}
+
+.promotext{
+    color: #fdf9ed;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.scroll{
+    animation: scroll 10s infinite linear;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-50%);
+    }
 }
 
 /*------------Homepage Bestsellers-----------*/
@@ -119,7 +138,7 @@ nav-links{
 .bestsellers-col2{
     text-align: center;
     color: #fdf9ed;
-    margin-top: 5%;
+    margin-top: 7%;
     margin-left: 9%;
 }
 
@@ -133,13 +152,17 @@ nav-links{
 }
 
 .bestsellers-col2 h2{
-    font-size: 40px;
+    font-size: 3vw;
     margin-bottom: 20px;
 }
 
 .bestsellers-col2 h3{
-    font-size: 35px;
+    font-size: 2.3vw;
     margin-top: 10px;
+}
+
+.bestsellers-col2 p{
+    font-size: 1vw;
 }
 
 .order-btn2{
@@ -147,7 +170,7 @@ nav-links{
     text-decoration: none;
     color: #fdf9ed;
     border: 1px solid #fdf9ed;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-bottom: 5%;
     padding: 10px 15px;
     border-radius: 30px;
@@ -160,19 +183,35 @@ nav-links{
     display:flex;
     align-items: center;
     background-color: #fdf9ed;
+    flex-basis: 30%;
+}
+
+.image-container{
+    width: 85%;
 }
 
 .image-container img{
     display: block;
-    width: 120%;
-    height: 800px;
+    width: 85%;
 }
 
 .about .row .abouttext{
     flex-basis: 40%;
-    margin-right: 5%;
-    margin-left: 15%;
+    margin-right: 8.3%;
     color: #1a6a5e;
+    text-align: justify;
+}
+
+.abouttext{
+    top: 30%
+}
+
+.abouttext p{
+    font-size: 1vw;
+}
+
+.since p{
+    font-size: 1.5vw;
 }
 
 .abouttext > * + * {
