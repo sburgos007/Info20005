@@ -40,7 +40,6 @@ nav-links{
     list-style: none;
     display: inline-block;
     padding: 8px 20px;
-    position: relative;
 }
 .nav-links ul li a{
     color: #1a6a5e;
@@ -170,8 +169,8 @@ nav-links{
 }
 
 .about .row .abouttext{
-    flex-basis: 20%;
-    margin-right: 10%;
+    flex-basis: 40%;
+    margin-right: 5%;
     margin-left: 15%;
     color: #1a6a5e;
 }
@@ -218,6 +217,7 @@ nav-links{
     width: 100%;
     background-color: #fdf9ed;
     text-align: center;
+    overflow: hidden;
     
 }
 
@@ -523,20 +523,19 @@ nav-links{
 .cartContainer{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    margin: 60px;
-    margin-left: 100px;
+    flex-wrap: nowrap;
+    margin: 5%;
 }
 
 .rightCart{
     /* flex-basis: 0rem;
     flex-grow: 1; */
     width: 550px;
-    margin-right: 40px;
     border: 3px solid #cfdcd0;
     align-items: center;
     border-radius: 100px;
     color: #1a6a5e;
+    margin-left: 3%;
 }
 
 .leftCart{
@@ -620,6 +619,7 @@ nav-links{
 
 .promoCode .cartBox p{
     color: #1A685E;
+    margin-left: 5%;
 }
 
 .promoCode .cartBox{
@@ -647,6 +647,31 @@ nav-links{
     margin: 10px 80px;
     text-align: center;
 }
+
+/*----------Checkout------------*/
+
+.pay-details h2{
+    margin-bottom: 3%;
+}
+.pay-details h3{
+    margin-bottom: 1%;
+}
+
+.info-form input, .info-form textarea{
+    border: 1px solid #1a6a5e;
+    padding-right: 50%;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-right: 50%;
+    background: none;
+    border-radius: 50px;
+    outline: none;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+
 
 /*----------Confirmation------------*/
 
@@ -702,5 +727,6 @@ nav-links{
     border-radius: 50px;
     padding: 1% 5%;
 }
+
 
 
