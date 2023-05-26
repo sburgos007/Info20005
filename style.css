@@ -372,6 +372,10 @@ nav img{
     white-space: nowrap;
 }
 
+.menu-list{
+    background-color: #fdf9ed;
+}
+
 .menu-divider{
     width: 550px;
     height: 1000px;
@@ -562,6 +566,7 @@ nav img{
 }
 
 /*---------------Cart----------------*/
+
 .cartContainer{
     display: flex;
     flex-direction: row;
@@ -702,7 +707,7 @@ nav img{
 
 .info-form input, .info-form textarea{
     border: 1px solid #1a6a5e;
-    padding-right: 50%;
+    width: 90%;
     padding-left: 5%;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -712,6 +717,22 @@ nav img{
     outline: none;
     margin-bottom: 10px;
     text-align: left;
+}
+
+.checkheading{
+    display: inline-block;
+}
+
+.leftCheck{
+    flex-basis: 0;
+    flex-grow: 1;
+    /* border: 1px solid #1A685E; */
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 50%;
+
 }
 
 
