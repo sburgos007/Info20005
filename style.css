@@ -5,6 +5,10 @@
     text-decoration: none;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 /*------------header-----------*/
 
 .header{
@@ -15,9 +19,15 @@
     z-index: 1;
     background-color: #fdf9ed;
     text-align: center;;
+    display: flex;
+    justify-content: center;
 }
 
+.header div{
+    justify-content: space-between;
+}
 nav{
+    width: 100%;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -29,21 +39,23 @@ nav{
 
 nav img{
     width: 150px;
-    margin-right: 150px;
 }
 
-nav-links{
+.nav-links{
     flex:1;
+    width: 30%;
     text-align: left;
 }
+
 .nav-links ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 8px 20px;
+    display: inline;
+    width: fit-content;
 }
-.nav-links ul li a{
+
+.nav-links a{
+    font-size: 1.5vw;
     color: #1a6a5e;
-    text-decoration: none;
+    padding-right: 10%;
 }
 
 .cart-btn{
@@ -51,9 +63,13 @@ nav-links{
     color: #fff;
     background-color: #1a6a5e;
     padding: 12px 34px;
-    font-size: 13px;
+    font-size: 1.5vw;
     position: relative;
     border-radius: 30px;
+}
+
+.menuLeftList{
+    
 }
 
 /*------------Homepage Page 1-----------*/
@@ -635,6 +651,7 @@ nav-links{
     color: #fdf9ed;
     top: 1px;
     text-align: left;
+    overflow-x: auto;
     
 }
 
