@@ -19,7 +19,11 @@ body p{
 }
 
 body h3{
-    font-size: 1.9vw;
+    font-size: 1.5vw;
+}
+
+body h2{
+    font-size: 3vw;
 }
 
 /*------------header-----------*/
@@ -49,7 +53,7 @@ header img{
     left: 2.7vw;
 }
 
-header li{
+.navbar li{
     display: inline;
     padding-left: 1.4vw;
 }
@@ -81,7 +85,11 @@ header #viewCart a:hover{
 }
 
 .active {
-    color: #d9603C
+    color: #d9603C;
+}
+
+#viewCart .active{
+    background-color: #d9603C;
 }
 
 .searchBar{
@@ -136,7 +144,6 @@ header #viewCart a:hover{
 
 .promo{
     width: 100%;
-    font-size: 1.5vw;
     padding-bottom: 1vw;
     background-color: #d9603C;
     background-size: contain;
@@ -157,6 +164,10 @@ header #viewCart a:hover{
 
 .scroll{
     animation: scroll 10s infinite linear;
+}
+
+.scroll h3 {
+    font-size: 2vw;
 }
 
 @keyframes scroll {
@@ -207,10 +218,6 @@ header #viewCart a:hover{
     margin-top: 10px;
 }
 
-.bestsellers-col2 p{
-    font-size: 1vw;
-}
-
 #bestSellers .order-btn{
     background-color: transparent;
     border: 1px solid #fdf9ed;
@@ -238,23 +245,11 @@ header #viewCart a:hover{
     flex-basis: 40%;
     margin-right: 8.3%;
     color: #1a6a5e;
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 .abouttext{
     top: 30%
-}
-
-.abouttext h2{
-    font-size: 3vw;
-}
-
-.abouttext p{
-    font-size: 1vw;
-}
-
-.since p{
-    font-size: 1.5vw;
 }
 
 .abouttext > * + * {
@@ -385,7 +380,7 @@ header #viewCart a:hover{
     text-align: center;
     border: 2px solid #1a6a5e;
     border-radius: 40px;
-    padding: 12px 34px;
+    padding: 0.8% 2.7%;
     font-size: 1.5vw;
     background: transparent;
     margin-top: 3%;
@@ -398,7 +393,6 @@ header #viewCart a:hover{
     border: 2px solid #d9603C;
     color: #fdf9ed;
 }
-  
 
 .cat-slider, .cat-carousel{
     white-space: nowrap;
@@ -408,10 +402,10 @@ header #viewCart a:hover{
     background-color: #fdf9ed;
 }
 
-.menu-divider{
+/* .menu-divider{
     width: 550px;
     height: 1000px;
-}
+} */
 
 .items{
     display: grid;
@@ -445,7 +439,6 @@ header #viewCart a:hover{
 }
 
 .items-box p{
-    font-size: 1vw;
     margin-top: 2em;
 }
 
@@ -453,23 +446,23 @@ header #viewCart a:hover{
     width:37%;
     background: #fdf9ed;
     border-radius: 20px 0px 0px 20px;
-    border: 2px solid #1a6a5e;
+    border: 0.2vw solid #1a6a5e;
     align-items: left;
     display: flex;
 }
 
 .items-box .icon {
     position: absolute;
-    right: 1vmax;
+    right: 1vw;
     display: flex;
-    top: 1em;
+    top: 1vw;
     align-items: flex-end;
 }
   
 .items-box .icon img {
     background-color: transparent;
     border: none;
-    width: 3vw
+    width: 3vw;
 }
 
 .bottomData{
@@ -484,7 +477,6 @@ header #viewCart a:hover{
     display: flex;
     justify-items: center;
     background-color: #fdf9ed;
-
     width: 25%;
     border-radius: 20px;
     color: #1a6a5e;
@@ -599,6 +591,51 @@ header #viewCart a:hover{
 }
 
 /*---------------Cart----------------*/
+.leftCart .items-box {
+    margin: 0;
+    margin-top: 1.5vw;
+    width: 45vw;
+}
+
+.leftCart .items-box .menuImg{
+    width: 20%;
+    height: 20%;
+    border: 0.1vw solid #1a6a5e;
+}
+
+.leftCart .counterBtn{
+    position: absolute;
+    right: 4vw;
+    bottom: 1.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6.5vw;
+    height: 2.5vw;
+}
+
+.leftCart .itemPrice{
+    left: 10vw;
+    bottom: 1.4vw;
+    font-size: 1.5vw;
+}
+
+.leftCart .icon{
+    right: 1.5vw;
+    bottom: 1.9vw;
+}
+
+.leftCart .icon img{
+    width: 1.5vw;
+}
+
+.leftCart h3{
+    font-size: 1.8vw;
+}
+
+
+
+
 
 .cartContainer{
     display: flex;
@@ -608,8 +645,6 @@ header #viewCart a:hover{
 }
 
 .rightCart{
-    /* flex-basis: 0rem;
-    flex-grow: 1; */
     width: 550px;
     border: 3px solid #cfdcd0;
     align-items: center;
@@ -621,7 +656,6 @@ header #viewCart a:hover{
 .leftCart{
     flex-basis: 0;
     flex-grow: 1;
-    /* border: 1px solid #1A685E; */
     align-items: center;
 }
 
@@ -651,15 +685,22 @@ header #viewCart a:hover{
     display: flex;
     justify-content: flex-end;
     right: 20px;
+    width: 1%;
 }
 
 .outer-rectangle .trashicon img{
-    width: 4%;
+    width: 1%;
 }
 
 .outer-rectangle h1{
     font-size: large;
 }
+
+
+
+
+
+
 
 .cartBox{
     width: 400px;
@@ -685,7 +726,6 @@ header #viewCart a:hover{
 }
 
 .promoCode{
-    /* border: 1px solid #1A685E; */
     color: #fdf9ed;
     top: 1px;
     text-align: left;
@@ -846,9 +886,6 @@ header #viewCart a:hover{
     background: #1A685E;
     color: #fdf9ed;
   }
-
-
-
 
 /*----------Confirmation------------*/
 
