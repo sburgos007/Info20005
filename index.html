@@ -12,12 +12,12 @@
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header id="header">
         <img src="imageSources/logo.png">
         <ul class="navbar">
             
             <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="#aboutSection">About</a></li>
             <li><a href="p2menu.html">Menu</a></li>
             <li><a href="p1search.html">Search</a></li>
             <li id="viewCart"><a href="p4cart.html">View Cart</a></li>
@@ -31,7 +31,7 @@
             </div>
         </section>
 
-        <section class="bestsellers bg-greenfade">
+        <section class="bestsellers bg-greenfade" id="bestSellers">
             <div class="row">
                 <div class="bestsellers-col1">
                     <img src="imageSources/poster2.jpg">
@@ -41,7 +41,7 @@
                     <img src="imageSources/search popular.png" alt="">
                     <h3>Pizzas</h3>
                     <p> Explore our customisable <br>pizza flavours and toppings</p>
-                    <a href="p1search.html" class="order-btn2">Order Now</a>
+                    <a href="p1search.html" class="order-btn">Order Now</a>
                 </div>
             </div>
         </section>
@@ -56,7 +56,8 @@
             </div>
         </section> 
 
-        <section>
+        
+        <section id="aboutSection">
             <div class="about">
                 <div class="row">
                     <div class="image-container">
@@ -87,8 +88,10 @@
 
                 <div class="box hours">
                     <h3>Opening Hours</h3>
-                    <p style="font-size: 12px">Saturday to Thursday - 5pm to 9pm </p>
-                    <p style="font-size: 12px">Saturday - 5pm to 10pm</p>
+                    <div class="contactInfo">
+                        <p>Saturday to Thursday - 5pm to 9pm </p>
+                        <p>Saturday - 5pm to 10pm</p>
+                    </div>
                 </div>
 
                 <div class="box socials">
@@ -97,15 +100,17 @@
 
                 <div class="box contact">
                     <h3>Contact Us</h3>
-                    <p style="font-size: 12px">1697 Albany Hwy Cr Royal St</p>
-                    <p style="font-size: 12px">Kenwick 6107</p>
-                    <p style="font-size: 12px">(04)94596033</p>
-                    <p style="font-size: 12px">online@kenwickpizza.com.au</p>
+                    <div class="contactInfo">
+                        <p>1697 Albany Hwy Cr Royal St</p>
+                        <p>Kenwick 6107</p>
+                        <p>(04)94596033</p>
+                        <p>online@kenwickpizza.com.au</p>
+                    </div>
                 </div>
             </div>
         </section>
-        
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
 
