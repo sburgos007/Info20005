@@ -6,70 +6,70 @@
 }
 
 body{
+    background-color: #fdf9ed;
     overflow-x: hidden;
 }
 
 /*------------header-----------*/
 
-.header{
-    height: 120px;
-    width: 100%;
-    position: sticky;
-    top: 0;
-    z-index: 1;
+header{
+    display: flex;
     background-color: #fdf9ed;
-    text-align: center;;
-    display: flex;
-    justify-content: center;
-}
-
-.header div{
-    justify-content: space-between;
-}
-nav{
+    padding: 4vw;
+    padding-bottom: 1.5vw;
     width: 100%;
+    top: 0%;
+    position: fixed;
+    z-index: 1;
+}
+
+.navbar{
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+    margin-left: auto;
+    padding-right: 9vw;
     align-items: center;
-    flex-direction: row;
-    margin-left: 5%;
-    margin-right: 5%;
 }
 
-nav img{
-    width: 150px;
+header img{
+    position: absolute;
+    width: 20%;
+    top: 1.5vw;
+    left: 2.7vw;
 }
 
-.nav-links{
-    flex:1;
-    width: 30%;
-    text-align: left;
-}
-
-.nav-links ul li{
+header li{
     display: inline;
-    width: fit-content;
+    padding-left: 1.4vw;
 }
 
-.nav-links a{
+header li a{
+    color: #1A685E;
     font-size: 1.5vw;
-    color: #1a6a5e;
-    padding-right: 10%;
+    text-decoration: none;
+    padding: 1vw;
+    padding-top: 0;
 }
 
-.cart-btn{
-    display: inline-block;
-    color: #fff;
+header li a:hover{
+    color: #d9603C;
+}
+
+header #viewCart a{
+    color: #fdf9ed;
     background-color: #1a6a5e;
-    padding: 12px 34px;
-    font-size: 1.5vw;
-    position: relative;
     border-radius: 30px;
+    padding: 1vw 2.5vw;
+    float: right;
+    position: relative;
+
 }
 
-.menuLeftList{
-    
+header #viewCart a:hover{
+    background-color: #d9603C;
+}
+
+.active {
+    color: #d9603C
 }
 
 /*------------Homepage Page 1-----------*/
@@ -81,23 +81,24 @@ nav img{
 }
 
 .btn-pos{
-    bottom: 6%;
-    left: 3%;
+    bottom: 7%;
+    right: 4%;
     width: 20%;
     position:absolute;
     text-align:center;
 }
 
 .firstpage{
-    min-height:85vh;
+    min-height:100vh;
     width: 100%;
+    height: 100%;
     background-image: url(imageSources/poster1.jpeg);
     background-position: center;
     background-size: cover;
 }
 
 .order-btn h1 a{
-    font-size: 100%;
+    font-size: 3vw;
     text-decoration: none;
     color: #fdf9ed;
 }
@@ -265,6 +266,7 @@ nav img{
 /*----------search------------*/
 
 .categories{
+    margin-top:6.5em;
     display: inline-block;
     padding-top: 5%;
     min-height:100vh;
@@ -320,6 +322,7 @@ nav img{
 /*----------menu------------*/
 
 .menu-banner{
+    margin-top:6.5em;
     min-height:30vh;
     width: 100%;
     background-image: url(imageSources/background.jpeg);
@@ -474,6 +477,7 @@ nav img{
 /*----------product info------------*/
 
 .product-banner{
+    margin-top:6.5em;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
