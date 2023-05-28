@@ -12,16 +12,21 @@
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header id="header">
-        <a href="index.html"><img src="imageSources/logo.png"></a>
+    <header>
+        <img id="logo" src="imageSources/logo.png">
         <ul class="navbar">
-            <li><a href="index.html" class="active">Home</a></li>
-            <li class="links"><a href="#aboutSection">About</a></li>
+            
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
             <li><a href="p2menu.html">Menu</a></li>
-            <li><a href="p1search.html">Search</a></li>
+            <li id="searchBar">
+                <img src="imageSources/icon search.png" alt="">
+                <input class="bg-white green" type="text" placeholder="burger...">
+            </li>
             <li id="viewCart"><a href="p4cart.html">View Cart</a></li>
         </ul>
     </header>
+
     
     <main>
         <section class="firstpage">
