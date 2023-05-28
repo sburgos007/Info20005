@@ -1,3 +1,21 @@
+@font-face {
+    font-family: 'newcastle';
+    src:
+         url('./fontAssets/newcastle_basic_clean-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ramo';
+    src:
+         url('./fontAssets/ramo-demagnolia-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 *{
     margin: 0 ;
     padding: 0;
@@ -19,19 +37,23 @@ body p{
 }
 
 body h3{
+    font-family: 'newcastle';
     font-size: 1.5vw;
 }
 
 body h2{
+    font-family: 'newcastle';
     font-size: 3vw;
 }
 
 a {
+    font-family: 'newcastle';
     color: #fdf9ed;
 }
 
 body h1{
-    font-size: 3vw;
+    font-family: 'ramo';
+    font-size: 6vw;
 }
 
 /*------------header-----------*/
@@ -658,8 +680,8 @@ header #viewCart a:hover{
     font-size: 1.8vw;
 }
 
-.leftCart h2{
-    font-size: 2.3vw;
+.leftCart h1{
+    font-size: 3vw;
     color: #1a6a5e;
     margin-bottom: 1.5vw;
 }
@@ -677,9 +699,15 @@ header #viewCart a:hover{
 
 .border{
     border: 1px solid;
-    padding: 0.7vw;
     border-radius: 50px;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
+}
+
+.cartSummary p{
+    display: flex;
+    justify-content: right;
+    padding-right: 3vw;
+    margin-bottom: 4%;
 }
 
 .cartSummary th, td{
@@ -690,18 +718,16 @@ header #viewCart a:hover{
     font-size: 1.3vw;
 }
 
+.cartSummary h1{
+    margin-bottom: 4%;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 2.5vw;
+}
+
 .cartSummary .order-btn{
     padding: 4% 20%;
 }
 
-/* this one fcks up the payment form */
-.cartSummary .confirm-btn{
-    padding: 0.2px;
-    border-radius: 50px;
-    margin: 10px 80px;
-    text-align: center;
-    font-size: 1.2vw;
-}
 
 /*----------Checkout------------*/
 
