@@ -48,7 +48,6 @@ body h2{
 
 a {
     font-family: 'newcastle';
-    color: #fdf9ed;
 }
 
 body h1{
@@ -200,6 +199,7 @@ header #viewCart a:hover{
     color: #fdf9ed;
     text-align: center;
     padding-top: 10px;
+    font-size: 3vw;
 }
 
 .scroll{
@@ -426,6 +426,7 @@ header #viewCart a:hover{
     margin-top: 3%;
     margin-bottom: 3%;
     margin-right: 3%;
+    font-family: 'newcastle'
 }
 
 .cat-button p:hover {
@@ -545,7 +546,7 @@ header #viewCart a:hover{
 }
 
 .banner-txt{
-    margin-top: 7vw;
+    margin-top: 4vw;
     margin-right: 13vw;
 }
 
@@ -611,14 +612,8 @@ header #viewCart a:hover{
     white-space: nowrap;
 }
 
-.pineapple{
-    margin-top: 6px;
-}
 .slider-container img{
     width: 86%;
-}
-.slider-container2 img{
-    width: 50%;
 }
 
 .slider-container{
@@ -626,6 +621,14 @@ header #viewCart a:hover{
     flex-direction: column;
     align-items: center;
     width: 16vw;
+}
+
+.slider-container p{
+    font-size: 1.5vw;
+}
+
+.slider-container h3{
+    font-size: 2vw;
 }
 
 .margins{
@@ -793,6 +796,11 @@ header #viewCart a:hover{
     gap: 0.5rem;
     grid-template-columns: 20% 20% 20% 20%;
 }
+
+.leftCheck p{
+    font-size: 1.5vw;
+}
+
 .leftgrid-span1{
     grid-column: span 1;
 }
