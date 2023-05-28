@@ -633,7 +633,11 @@ header #viewCart a:hover{
     font-size: 1.8vw;
 }
 
-
+.leftCart h2{
+    font-size: 2.3vw;
+    color: #1a6a5e;
+    margin-bottom: 1.5vw;
+}
 
 
 
