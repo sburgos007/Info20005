@@ -524,13 +524,14 @@ header #viewCart a:hover{
 
 .banner-txt{
     margin-top: 7vw;
-    margin-right: 9vw;
+    margin-right: 13vw;
 }
 
 .product-banner img{
     width: 45vw;
-
+    margin-bottom: -5px;
 }
+
 
 .heading{
     font-size: 6vw;
