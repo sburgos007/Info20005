@@ -38,7 +38,7 @@ body p{
 
 body h3{
     font-family: 'newcastle';
-    font-size: 1.5vw;
+    font-size: 1.3vw;
 }
 
 body h2{
@@ -52,7 +52,6 @@ a {
 
 body h1{
     font-family: 'ramo';
-    font-size: 6vw;
 }
 
 /*------------header-----------*/
@@ -101,11 +100,11 @@ header li a:hover{
 header #viewCart a{
     color: #fdf9ed;
     background-color: #1a6a5e;
-    border-radius: 30px;
+    border-radius: 50px;
     padding: 0.7vw 2.5vw;
+    padding-top: 1vw;
     float: right;
     position: relative;
-
 }
 
 header #viewCart a:hover{
@@ -235,7 +234,7 @@ header #viewCart a:hover{
 .bestsellers-col2{
     text-align: center;
     color: #fdf9ed;
-    margin-top: 7%;
+    margin-top: 5%;
     margin-left: 9%;
 }
 
@@ -246,6 +245,7 @@ header #viewCart a:hover{
 }
 .bestsellers-col2 img{
     width: 30%;
+    margin: 3% 0%;
 }
 
 .bestsellers-col2 h2{
@@ -294,6 +294,11 @@ header #viewCart a:hover{
 
 .abouttext > * + * {
     margin-top: 1rem;
+}
+
+.abouttext h1{
+    font-size: 3.3vw;
+    letter-spacing: 0.2rem;
 }
 
 /*------------Footer-----------*/
@@ -392,6 +397,7 @@ header #viewCart a:hover{
     background-image: url(imageSources/background.jpeg);
     background-position: center;
     background-size: cover;
+    letter-spacing: 0.3vw;
 }
 
 .title{
@@ -443,11 +449,6 @@ header #viewCart a:hover{
     background-color: #fdf9ed;
 }
 
-/* .menu-divider{
-    width: 550px;
-    height: 1000px;
-} */
-
 .items{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -475,7 +476,7 @@ header #viewCart a:hover{
 }
 
 .items-box h3{
-    font-size: 2.4vw;
+    font-size: 2vw;
     line-height: 60%;
 }
 
@@ -541,32 +542,40 @@ header #viewCart a:hover{
 .product-banner{
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
     margin-top: 10vw;
+    overflow: hidden;
 }
 
 .banner-txt{
-    margin-top: 4vw;
-    margin-right: 13vw;
+    margin: 4vw 10vw;
 }
 
-.product-banner img{
+.product-banner .pizzaImg{
     width: 45vw;
-    margin-bottom: -5px;
+    margin-bottom: -44vw;
 }
 
+.halftone{
+    position: absolute;
+    width: 100%;
+    opacity: 80%;
+    overflow: hidden;
+}
 
 .heading{
     font-size: 6vw;
+    line-height: 6vw;
+    margin-bottom: 2vw;
 }
 
 .product-size{
-    margin: 3vw 0vw;
+    margin: 2.4vw 0vw;
+
 }
 .product-size ul li{
     list-style: none;
     display: inline-block;
-    padding: 0.5vw 2vw;
+    padding: 0.3vw 2vw;
     position: relative;
     font-size: 1vw;
 }
@@ -578,7 +587,6 @@ header #viewCart a:hover{
     font-size: 13px;
     background: transparent;
     margin-top: 10px;
-    
 }
 
 .size-btn:hover{
@@ -598,29 +606,32 @@ header #viewCart a:hover{
 
 .cart-btn2 h2{
     font-size: 2vw;
+    color: #fdf9ed;
 }
 
 .addition-title{
     margin-left: 5%;
     padding-top: 5%;
+    font-size: 2vw;
 }
 .slider-additions{
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 25px;
+    margin-right: 0;
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
 }
 
 .slider-container img{
-    width: 86%;
+    width: 50%;
 }
 
 .slider-container{
     display: inline-flex;
     flex-direction: column;
     align-items: center;
-    width: 16vw;
+    width: 12vw;
 }
 
 .slider-container p{
