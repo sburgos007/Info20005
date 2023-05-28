@@ -13,13 +13,16 @@
 </head>
 <body>
     <header>
-        <img src="imageSources/logo.png">
+        <img id="logo" src="imageSources/logo.png">
         <ul class="navbar">
             
             <li><a href="index.html">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="p2menu.html">Menu</a></li>
-            <li><a href="p1search.html">Search</a></li>
+            <li id="searchBar">
+                <img src="imageSources/icon search.png" alt="">
+                <input class="bg-white green" type="text" placeholder="burger...">
+            </li>
             <li id="viewCart"><a href="p4cart.html">View Cart</a></li>
         </ul>
     </header>
@@ -79,13 +82,30 @@
                     </form>
                 </div>
     
-                <h2>Payment Details </h2>
-                Apple Pay 
-                PayPal
-                Google Pay
-                Card 
+                
+                <h2 class="leftgrid-span4">PAYMENT DETAILS</h2>
+                <div class="paysection leftgrid-span4">
+                    <div class="paybutton">
+                        <span class="dot"></span>
+                        <img class="reg-img" src="imageSources/pay apple.png" alt="">
+                        <h3>Apple Pay</h3>
+                    </div>
+                    <div class="paybutton">
+                        <span class="dot"></span>
+                        <img class="paypal" src="imageSources/pay paypal.png" alt="">
+                        <h3>PayPal</h3>
+                    </div>
+                    <div class="paybutton">
+                        <span class="dot"></span>
+                        <img class="reg-img" src="imageSources/pay google.png" alt="">
+                        <h3>Google Pay</h3>
+                    </div>
+                    <div class="paybutton">
+                        <span class="dot"></span>
+                        <h3>Card</h3>
+                    </div>
+                </div> 
             </div>
-        </div>
        
 
         <div class="cartSummary rightCart">
