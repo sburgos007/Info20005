@@ -1,30 +1,13 @@
+const menu_btn = document.querySelector('.hamburger');
+const mobile_menu = document.querySelector('.mobile-nav');
 
-// Hover effect on menu category buttons
-document.addEventListener('DOMContentLoaded', function() {
-    var catButtons = document.querySelectorAll('.cat-button p');
-    catButtons.forEach(function(button) {
-      button.addEventListener('mouseenter', function() {
-        this.classList.add('hover');
-      });
-      button.addEventListener('mouseleave', function() {
-        this.classList.remove('hover');
-      });
-    });
+
+menu_btn.addEventListener('click', function () {
+  menu_btn.classList.toggle('active');
+  mobile_menu.classList.toggle('active');
 });
 
-paybutton = document.querySelectorAll('.dot');
-
-buttons.forEach(button => {
-  button.addEventListener('click', () => {
-    button.style.backgroundColor = '#1a685e';
-  });
-}); 
-
-
 // ABOUT SECTION 
-
-
-
 // // Initially check the scroll position on page load
 // toggleActiveClass();
 
@@ -54,6 +37,27 @@ buttons.forEach(button => {
 //         aboutLink.classList.remove('active');
 //     }
 // }
+
+// // Hover effect on menu category buttons
+// document.addEventListener('DOMContentLoaded', function() {
+//   var catButtons = document.querySelectorAll('.cat-button p');
+//   catButtons.forEach(function(button) {
+//     button.addEventListener('mouseenter', function() {
+//       this.classList.add('hover');
+//     });
+//     button.addEventListener('mouseleave', function() {
+//       this.classList.remove('hover');
+//     });
+//   });
+// });
+
+// paybutton = document.querySelectorAll('.dot');
+
+// buttons.forEach(button => {
+// button.addEventListener('click', () => {
+//   button.style.backgroundColor = '#1a685e';
+// });
+// }); 
 
 
 
