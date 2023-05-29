@@ -49,6 +49,9 @@ body h2{
 a {
     font-family: 'newcastle';
 }
+label{
+    font-size: 1.5vw;
+}
 
 body h1{
     font-family: 'ramo';
@@ -769,112 +772,95 @@ header #viewCart a:hover{
     flex-wrap: nowrap;
     margin: 2% 5%;
 }
+.info-form{
+    margin-right: 3vw;
+}
 
 .info-form input, .info-form textarea{
     border: 1px solid #1a6a5e;
-    width: 162%;
-    padding-left: 5%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    margin-right: 50%;
+    width: 100%;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    padding-left: 1vw;
     background: none;
     border-radius: 50px;
     outline: none;
-    margin-bottom: 10px;
+    margin-bottom: 1vw;
     text-align: left;
 }
 
-.info-form2 input, .info-form2 textarea{
-    border: 1px solid #1a6a5e;
-    width: 97%;
-    padding-left: 1%;
-    padding-top: 2%;
-    padding-bottom: 8%;
-    margin-right: 50%;
-    background: none;
-    border-radius: 16px;
-    outline: none;
-    margin-bottom: 10px;
-    text-align: left;
-}
-
-.info-form{
-    margin-right: 40%;
-}
 
 .leftCheck{
-    display: grid;
-    gap: 0.5rem;
-    grid-template-columns: 20% 20% 20% 20%;
+    width: 40vw;
 }
 
 .leftCheck p{
     font-size: 1.5vw;
 }
 
-.leftgrid-span1{
-    grid-column: span 1;
+.minicontainer1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1vw;
 }
 
-.leftgrid-span2{
-    grid-column: span 2;
-}
-.leftgrid-span3{
-    grid-column: span 3;
-}
-.leftgrid-span4{
-    grid-column: span 4;
+#suburb{
+    margin-right: 2vw;
 }
 
+#postcode{
+    margin-left: 2vw;
+
+}
 .paysection{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 1vw;
+    width: 41vw;
 }
 .reg-img{
-    width: 80%;
+    width: 25%;
 }
-.paypal{
-    width: 40%;
+#paypal{
+    width: 11%;
+    margin: 0vw 0.5vw;
 }
 .paybutton{
-    display: grid;
-    grid-template-columns: 20% 30% 50%;
-    justify-content: center;
+    display: flex;
     border: 1px solid #1A685E;
-    border-radius: 15px;
-    padding: 2px 10px;
-    margin: 5px;
+    border-radius: 100px;
+    padding: 0vw 1vw;
     align-items: center;
 }
+
+.paybutton p{
+    font-size: 1.3vw;
+}
+
 .dot {
-    height: 15px;
-    width: 15px;
+    height: 2vw;
+    width: 2vw;
     border: 1px solid #1A685E;
     border-radius: 50%;
     display: inline-block;
+    margin-right: 0.5vw;
   }
 
   .dot:hover{
     background: #1A685E;
-    border: transparent;
   }
 
-  .choosetime{
-    display: grid;
-    grid-template-columns: 33% 33% 70%;
-    text-align: center;
-  }
-
-  .choosetime p{
+  .minicontainer1 p{
     border: 1px solid #1A685E;
-    border-radius: 15px;
-    padding: 1px 2px;
+    border-radius: 100px;
+    padding: 0.25vw 4vw;
   }
 
-  .choosetime p:hover{
+  .minicontainer1 p:hover{
     background: #1A685E;
     color: #fdf9ed;
   }
+
 
 /*----------Confirmation------------*/
 
