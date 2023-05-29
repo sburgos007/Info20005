@@ -13,19 +13,34 @@
 </head>
 <body>
     <header>
-        <img id="logo" src="imageSources/logo.png">
+        <a href="index.html">
+            <img id="logo" src="imageSources/logo.png">
+        </a>
         <ul class="navbar">
-            
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html#aboutSection">About</a></li>
-            <li><a href="p2menu.html">Menu</a></li>
-            <li id="searchBar">
-                <img src="imageSources/icon search.png" alt="">
-                <input class="bg-white green" type="text" placeholder="Pizza, Burger...">
-            </li>
+            <li><a href="index.html" class="active desktop">Home</a></li>
+            <li><a href="index.html#aboutSection" class="desktop">About</a></li>
+            <li><a href="p2menu.html" class="desktop">Menu</a></li>
+            <a href="p1search.html">
+                <li id="searchBar">
+                    <img src="imageSources/icon search.png">
+                    <input type="text" placeholder="Pizza, Burger...">
+                </li>
+            </a>
             <li id="viewCart"><a href="p4cart.html">View Cart</a></li>
         </ul>
+        <button class="hamburger">
+            <div class="bar"></div>
+        </button>
     </header>
+    <nav class="mobile-nav">
+        <div id="mobileSearchBar">
+            <img src="imageSources/icon search.png">
+            <input type="text" placeholder="Pizza, Burger...">
+        </div>
+        <a href="index.html">Home</a>
+        <a href="index.html#aboutSection">About</a>
+        <a href="p2menu.html">Menu</a>
+    </nav>
 
 
     <section class="menu-banner">

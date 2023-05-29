@@ -7,6 +7,7 @@ menu_btn.addEventListener('click', function () {
   mobile_menu.classList.toggle('active');
 });
 
+
 // ABOUT SECTION 
 // // Initially check the scroll position on page load
 // toggleActiveClass();

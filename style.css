@@ -140,14 +140,19 @@ header #viewCart a:hover{
     color: #1a6a5e;
     background-color: #fdf9ed;
     width: 12vw;
-    font-size: 1vw;
-    font-family: 'newcastle';
+    font-size: 1.2vw;
+    /* font-family: 'newcastle'; */
     padding-top: 0.2vw;
 }
 
+input:focus{
+    border-color: #1a6a5e;
+}
+
 #searchBar img, #mobileSearchBar img{
-    width: 10%;
+    width: 12%;
     margin-right: 1vw;
+    margin-left: 0.5vw;
 }
 
 @media(max-width: 768px){
@@ -203,7 +208,9 @@ header #viewCart a:hover{
     border: 0.3vw solid #1A685E;
     border-radius: 100px;
     padding: 1vw;
+    padding-top: 1.3vw;
     padding-left: 7vw;
+    background-color: #fff;
 }
 
 .mobile-nav a{
@@ -337,8 +344,8 @@ header #viewCart a:hover{
 .bestsellers-col2{
     text-align: center;
     color: #fdf9ed;
-    margin-top: 5%;
-    margin-left: 9%;
+    margin-top: 5.5%;
+    margin-left: 10%;
 }
 
 .bestsellers-col1 img{
@@ -348,7 +355,7 @@ header #viewCart a:hover{
 }
 .bestsellers-col2 img{
     width: 30%;
-    margin: 3% 0%;
+    margin-top: 3%;
 }
 
 .bestsellers-col2 h2{
@@ -401,7 +408,7 @@ header #viewCart a:hover{
 
 .abouttext h1{
     font-size: 3.3vw;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.1rem;
 }
 
 /*------------Footer-----------*/
@@ -559,7 +566,7 @@ header #viewCart a:hover{
     margin-left: 7%;
     margin-right: 7%;
     row-gap: 3.5%;
-    margin-bottom: 20%;
+    margin-bottom: 25vw;
 }
 
 .items-box{
@@ -592,7 +599,6 @@ header #viewCart a:hover{
     background: #fdf9ed;
     border-radius: 20px 0px 0px 20px;
     border: 0.2vw solid #1a6a5e;
-    align-items: left;
     display: flex;
 }
 
@@ -630,7 +636,6 @@ header #viewCart a:hover{
 .counterBtn span{
     width: 100%;
     text-align: center;
-    font-size: larger;
     font-size: 1.4vw;
 }
 
@@ -638,6 +643,70 @@ header #viewCart a:hover{
     position: absolute;
     right: 6em;
     font-size: 1.4vw;
+}
+
+@media(max-width: 480px){
+    .items{
+        row-gap: 2%;
+        margin-top: 7vw;
+        margin-bottom: 50vw;
+    }
+
+    .items-box{
+        height: 60vw;
+        display: block;
+    }
+
+    .items-box .menuImg{
+        width: 99%;
+        height: 70%;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .itemsContent{
+        padding-top: 3vw;
+    }
+
+    .items-box p{
+        display: none;
+    }
+
+    .items-box h3{
+        display: grid;
+        justify-content: center;
+        font-size: 3.5vw;
+    }
+
+    .items-box .icon img {
+        width: 6vw;
+        filter: hue-rotate(10deg);
+        filter: brightness(10%);
+    }
+
+    .bottomData{
+        justify-content: center;
+        display: grid;
+        align-items: center;
+        margin: 0;
+    }
+
+    .itemPrice{
+        display: flex;
+        position: relative;
+        font-size: 3vw;
+        justify-content: center;
+        right: 0;
+        margin: 1.5vw;
+    }
+
+    .counterBtn{
+        width: 13vw;
+        margin-left: 1vw;
+    }
+    
+    .counterBtn span{
+        font-size: 3vw;
+    }
 }
 
 /*----------product info------------*/
