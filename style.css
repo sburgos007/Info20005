@@ -577,7 +577,7 @@ input:focus{
     min-width: 10%;
     color: #1a6a5e;
     text-align: center;
-    border: 0.15vw solid #1a6a5e;
+    border: 0.2vw solid #1a6a5e;
     border-radius: 40px;
     padding: 0.8% 2.7%;
     font-size: 1.2vw;
@@ -590,7 +590,7 @@ input:focus{
 
 .cat-button .active, .slidertxt:hover {
     background-color: #d9603C;
-    border: 2px solid #d9603C;
+    border: 0.2vw solid #d9603C;
     color: #fdf9ed;
 }
 
