@@ -448,7 +448,6 @@ input:focus{
 
 .categories{
     margin-top: 10vw;
-    display: inline-block;
     padding-top: 0.5%;
     height: fit-content;
     width: 100%;
@@ -457,11 +456,15 @@ input:focus{
     overflow: hidden;
 }
 
+.categories a{
+    font-size: 6vw;
+    
+}
+
 .cat-popular, .cat-drinks, .cat-pizza, .cat-burgers, .cat-vegan, .cat-desserts{
     padding-top: 5%;
     padding-bottom: 5%;
     width: 100%;
-    font-size: 20px;
     position: relative;
 }
 
@@ -471,31 +474,71 @@ input:focus{
 
 .cat-popular img {
     position: absolute;
-    bottom: -56%;    
+    bottom: -60%;    
     left: -9%;
-    width: 25%;
+    width: 27%;
 }
 
 .cat-burgers img{
     position: absolute;
-    bottom: -50%;    
+    bottom: -53%;    
     left: -10%;
-    width: 30%;
+    width: 32%;
 
 }
 .cat-drinks img{
     position: absolute;
-    bottom: -20px;    
+    bottom: -25%;    
     left: -12%;
-    width: 30%;
+    width: 33%;
 
 }
 
 .cat-pizza img, .cat-vegan img, .cat-desserts img{
     position: absolute;
-    bottom: -56%; 
+    bottom: -63%; 
     right: -9%;
-    width: 25%;
+    width: 30%;
+}
+
+@media(max-width: 480px){
+
+    .cat-popular, .cat-drinks, .cat-pizza, .cat-burgers, .cat-vegan, .cat-desserts{
+        padding-top: 8%;
+    }
+    .categories img{
+        width: 40%;
+        left: 30.5%;
+        bottom: -77%;
+    }
+
+    .cat-burgers img{
+        bottom: -54%;
+    }
+
+    .cat-drinks img{
+        bottom: -28%;
+    }
+
+    .categories a{
+        position: relative;
+        z-index: 1;
+        font-size: 9vw;
+        bottom: 5vw;
+    }
+
+    .cat-pizza a, .cat-vegan a, .cat-desserts a{
+        -webkit-text-stroke: 0.2px #fdf9ed;
+    }
+
+    .cat-popular a, .cat-drinks a{
+        -webkit-text-stroke: 0.2px #d9603C;
+    }
+
+    .cat-burgers a{
+        -webkit-text-stroke: 0.2px #1a6a5e ;
+    }
+
 }
 
 /*----------menu------------*/
@@ -967,6 +1010,13 @@ input:focus{
     font-size: 1.5vw;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
 .minicontainer1{
     display: flex;
     justify-content: space-between;
@@ -981,6 +1031,7 @@ input:focus{
     margin-left: 2vw;
 
 }
+
 .paysection{
     display: grid;
     grid-template-columns: repeat(2, 1fr);

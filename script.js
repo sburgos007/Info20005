@@ -7,6 +7,14 @@ menu_btn.addEventListener('click', function () {
   mobile_menu.classList.toggle('active');
 });
 
+function isInputNumber(evt){
+  var ch = String.fromCharCode(evt.which);
+  if(!(/[0-9]/.test(ch))){
+    evt.preventDefault();
+  }
+}
+
+
 
 // ABOUT SECTION 
 // // Initially check the scroll position on page load

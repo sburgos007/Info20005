@@ -54,26 +54,26 @@
                 <h2 class>DELIVERY DETAILS</h2>
                 <form class="info-form">
                     <div class="leftCheck">
-                        <label for="name" class="form-label">Name</label>
-                            <input id="name" type="text" class="form-control">
+                        <label class="form-label">Name</label>
+                            <input id="name" type="text">
                     </div> 
                     <div class="leftCheck">
-                        <label for="name" class="form-label">Phone</label>
-                            <input type="text" placeholder="">
+                        <label class="form-label">Phone</label>
+                            <input type="text" maxlength="10" onkeypress="isInputNumber(event)">
                     </div>
                     <div class="leftCheck">
-                        <label for="name" class="form-label">Address</label>
+                        <label class="form-label">Address</label>
                             <input type="text" placeholder="">
                     </div>
                     <div class="leftCheck">
                         <div class="minicontainer1">
                             <div id="suburb">
-                                <label for="name" class="form-label">Suburb</label>
+                                <label class="form-label">Suburb</label>
                                 <input type="text" placeholder="">
                             </div>
                             <div id="postcode">
-                                <label for="name" class="form-label">Postcode</label>
-                                <input type="text" placeholder="">
+                                <label class="form-label">Postcode</label>
+                                <input type="text" maxlength="4" onkeypress="isInputNumber(event)">
                             </div>
                         </div>
                     </div>
@@ -86,7 +86,7 @@
                         </div>
                     </div>
                     <div class="leftCheck">
-                        <label for="name" class="form-label">Delivery Instructions</label>
+                        <label class="form-label">Delivery Instructions</label>
                             <input type="text" placeholder="">
                     </div>            
                     <h2>PAYMENT DETAILS</h2>
@@ -172,5 +172,6 @@
         </section>
         
     </footer>    
+    <script src="script.js"></script>
 </body>
 </html>
