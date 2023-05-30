@@ -158,8 +158,13 @@ input:focus{
     .desktop, #searchBar{
         display: none;
     }
+    header #viewCart a {
+        font-size: 2vw;
+    }
+    #logo{
+        width: 25%;
+    }
 }
-
 
 .hamburger{
     position: relative;
@@ -254,6 +259,7 @@ input:focus{
 }
 
 
+/* Mobile header */
 @media(max-width: 480px){
     header{
         height: 15vw;
@@ -293,7 +299,14 @@ input:focus{
         top: 2vw;
         left: 2vw;
     }
+}
 
+/* Mobile Homepage */
+@media(max-width: 480px){
+    .firstpage .order-btn{
+        display: none;
+    }
+    
 }
 
 /*------------Homepage Page 1-----------*/
@@ -339,6 +352,7 @@ input:focus{
     background-size: contain;
     position: relative;
     white-space: nowrap;
+    overflow-x: hidden;
 }
 
 .promo div{
