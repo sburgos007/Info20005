@@ -658,6 +658,10 @@ input:focus{
     .cat-popular, .cat-drinks, .cat-pizza, .cat-burgers, .cat-vegan, .cat-desserts{
         padding-top: 8%;
     }
+
+    .categories{
+        margin-top: 22vw;
+    }
     .categories img{
         width: 40%;
         left: 30.5%;
@@ -1044,6 +1048,7 @@ input:focus{
 @media(max-width: 480px){
     .product-banner{
         display: block;
+        margin-block-start: 22vw;
     }
     .halftone{
         position: relative;
