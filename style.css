@@ -756,18 +756,20 @@ input:focus{
 
 .product-banner{
     display: flex;
+    width: 100%;
     flex-flow: row nowrap;
     margin-top: 10vw;
     overflow: hidden;
 }
 
 .banner-txt{
-    margin: 4vw 10vw;
+    margin: 4vw 16vw;
 }
 
-.product-banner .pizzaImg{
-    width: 45vw;
-    margin-bottom: -44vw;
+.pizzaImg{
+    width: 50vw;
+    margin-bottom: -53vw;
+    margin-left: -11vw;
 }
 
 .halftone{
@@ -867,6 +869,69 @@ input:focus{
     padding-top: 5%;
     padding-bottom: 5%;
     text-decoration: underline;
+}
+
+@media(max-width: 480px){
+    .product-banner{
+        display: block;
+    }
+    .halftone{
+        position: relative;
+    }
+
+    .pizzaImg{
+        margin-bottom: 0vw;
+        margin-top: -30vw;
+        margin-left: 23vw;
+    }
+
+    .banner-txt{
+        text-align: center;
+        margin-left: 13vw;
+        margin-top: 0vw;
+    }
+
+    .banner-txt p{
+        font-size: 2vw;
+    }
+
+    .banner-txt h2{
+        font-size: 6vw;
+    }
+
+    .banner-txt ul li{
+        font-size: 2vw;
+    }
+
+    .cart-btn2 h2{
+        font-size: 4vw;
+    }
+
+    .addition-title{
+        font-size: 4vw;
+    }
+
+    .slider-container{
+        width: 18vw;
+        margin-right: 4vw;
+    }
+
+    .slider-container img{
+        width: 100%;
+    }
+
+    .slider-container p{
+        font-size: 2.5vw;
+    }
+
+    .slider-container h3{
+        font-size: 3vw;
+    }
+
+    .return{
+        font-size: 2.5vw;
+    }
+        
 }
 
 /*---------------Cart----------------*/
