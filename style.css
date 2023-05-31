@@ -513,13 +513,14 @@ input:focus{
 }
 
 .categories a{
-    font-size: 6vw;
-    
+    font-size: 4vw;
 }
 
+.break{
+    height: 6vw;
+}
 .cat-popular, .cat-drinks, .cat-pizza, .cat-burgers, .cat-vegan, .cat-desserts{
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding: 3vw 0vw;
     width: 100%;
     position: relative;
 }
@@ -530,23 +531,23 @@ input:focus{
 
 .cat-popular img {
     position: absolute;
-    bottom: -60%;    
-    left: -9%;
-    width: 27%;
+    bottom: -50%;    
+    left: -6%;
+    width: 23%;
 }
 
 .cat-burgers img{
     position: absolute;
     bottom: -53%;    
-    left: -10%;
-    width: 32%;
+    left: -9%;
+    width: 28%;
 
 }
 .cat-drinks img{
     position: absolute;
     bottom: -25%;    
     left: -12%;
-    width: 33%;
+    width: 30%;
 
 }
 
@@ -554,7 +555,7 @@ input:focus{
     position: absolute;
     bottom: -63%; 
     right: -9%;
-    width: 30%;
+    width: 28%;
 }
 
 @media(max-width: 480px){
@@ -1114,8 +1115,8 @@ input:focus{
 
 .pay-details h2{
     margin-top: 2%;
-    margin-left: 5%;
 }
+
 .pay-details h3{
     margin-bottom: 1%;
 }
@@ -1163,6 +1164,7 @@ input::-webkit-inner-spin-button {
     display: flex;
     justify-content: space-between;
     margin-bottom: 1vw;
+    align-items: center;
 }
 
 #suburb{
@@ -1223,6 +1225,52 @@ input::-webkit-inner-spin-button {
     color: #fdf9ed;
   }
 
+  @media(max-width: 480px){
+    .confirm-container{
+        flex-direction: column;
+        align-items: center;
+        margin-right: 2.5vw;
+    }
+
+    .leftCheck{
+        width: 80vw;
+    }
+
+    .pay-details h2{
+        font-size: 4vw;
+    }
+
+    .leftCheck label, .leftCheck p, .leftCheck h3{
+        font-size: 3vw;
+    }
+
+    .minicontainer1 p{
+        padding: 0.5vw 8vw;
+    }
+
+    .paysection{
+        gap: 2vw;
+        width: 81vw;
+        margin-bottom: 5vw;
+    }
+
+    .rightCart{
+        width: 79.5vw;
+        padding: 4vw 0vw;
+        margin-left: -3vw;
+        margin-bottom: 3vw;
+    }
+
+    .cartSummary p{
+        padding-right: 14vw;
+        font-size: 2vw;
+    }
+
+    .cartSummary th{
+        font-size: 3vw;
+        width: 80%;
+    }
+}
 
 /*----------Confirmation------------*/
 
@@ -1267,4 +1315,3 @@ input::-webkit-inner-spin-button {
     width: 85%;
     height: 30px;
 }
-
