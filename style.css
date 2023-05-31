@@ -838,6 +838,7 @@ input:focus{
     background-color: transparent;
     border: none;
     width: 3vw;
+    filter: brightness(0) invert(1);
 }
 
 .bottomData{
@@ -925,8 +926,7 @@ input:focus{
 
     .menu-list .items-box .icon img {
         width: 6vw;
-        filter: hue-rotate(10deg);
-        filter: brightness(10%);
+        filter: brightness(100%);
     }
 
     .bottomData{
