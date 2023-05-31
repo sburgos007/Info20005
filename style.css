@@ -1445,6 +1445,7 @@ input::-webkit-inner-spin-button {
     color: #fdf9ed;
   }
 
+
   @media(max-width: 480px){
     .confirm-container{
         flex-direction: column;
@@ -1457,7 +1458,9 @@ input::-webkit-inner-spin-button {
     }
 
     .pay-details h2{
-        font-size: 4vw;
+        font-size: 5vw;
+        text-align: center;
+        margin-top: 7vw;
     }
 
     .leftCheck label, .leftCheck p, .leftCheck h3{
@@ -1479,6 +1482,7 @@ input::-webkit-inner-spin-button {
         padding: 4vw 0vw;
         margin-left: -3vw;
         margin-bottom: 3vw;
+        margin-top: 7vw;
     }
 
     .cartSummary p{
