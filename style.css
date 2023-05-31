@@ -320,11 +320,14 @@ input:focus{
     text-align:center;
 }
 
+.page1-container{
+    display: none;
+}
+
 .firstpage{
     min-height:100vh;
     width: 100%;
     height: 100%;
-    background-image: url(imageSources/poster1.jpeg);
     background-position: center;
     background-size: cover;
 }
@@ -467,7 +470,7 @@ input:focus{
 .promotext{
     color: #fdf9ed;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 1vw;
     font-size: 3vw;
 }
 
@@ -491,7 +494,6 @@ input:focus{
 @media(max-width: 480px){
     .scroll h3{
         font-size: 6vw;
-        padding-bottom: 1vw;
     }
 }
 
@@ -601,6 +603,7 @@ input:focus{
     .cluster{
         flex-direction: column;
         align-items: center;
+        padding: 10vw 0;
 
     }
     .cluster h3{
@@ -617,7 +620,7 @@ input:focus{
     }
 
     .cluster > *{
-        margin: 4vw;
+        margin: 7vw;
     }
 
     .socials-icons{
@@ -1341,7 +1344,6 @@ input:focus{
         font-size: 3vw;
     }
     .cartSummary p{
-        padding-right: 10vw;
         font-size: 2.6vw;
     }
     .cartSummary .order-btn h3{
@@ -1509,7 +1511,7 @@ input::-webkit-inner-spin-button {
         margin-bottom: 5vw;
     }
 
-    .rightCart{
+    .confirm-container .rightCart{
         width: 79.5vw;
         padding: 4vw 0vw;
         margin-left: -3vw;

@@ -16,58 +16,20 @@ function isInputNumber(evt){
 }
 
 
+// Change background image every 5 seconds
+let images = document.querySelectorAll('.page1-container img');
+let currentImageIndex = 0;
 
-// ABOUT SECTION 
-// // Initially check the scroll position on page load
-// toggleActiveClass();
+setInterval(() => {
+  // Hide the current image
+  images[currentImageIndex].style.display = 'none';
 
-// // Event listener for scroll event
-// window.addEventListener('scroll', toggleActiveClass);
+  // Increment the image index
+  currentImageIndex = (currentImageIndex + 1) % images.length;
 
-// // Get the aboutSection element
-// const aboutSection = document.querySelector('#aboutSection');
+  // Show the next image
+  images[currentImageIndex].style.display = 'block';
 
-// // Get the about link in the navbar
-// const aboutLink = document.querySelector('a[href="#aboutSection"]');
-
-// // Function to check if aboutSection is in the viewport
-// function isElementInViewport(element) {
-//     const rect = element.getBoundingClientRect();
-//     return (
-//         rect.top >= 0 &&
-//         rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
-//     );
-// }
-
-// // Function to add or remove active class based on scroll position
-// function toggleActiveClass() {
-//     if (isElementInViewport(aboutSection)) {
-//         aboutLink.classList.add('active');
-//     } else {
-//         aboutLink.classList.remove('active');
-//     }
-// }
-
-// // Hover effect on menu category buttons
-// document.addEventListener('DOMContentLoaded', function() {
-//   var catButtons = document.querySelectorAll('.cat-button p');
-//   catButtons.forEach(function(button) {
-//     button.addEventListener('mouseenter', function() {
-//       this.classList.add('hover');
-//     });
-//     button.addEventListener('mouseleave', function() {
-//       this.classList.remove('hover');
-//     });
-//   });
-// });
-
-// paybutton = document.querySelectorAll('.dot');
-
-// buttons.forEach(button => {
-// button.addEventListener('click', () => {
-//   button.style.backgroundColor = '#1a685e';
-// });
-// }); 
-
-
-
+  // Set the background image of .firstpage
+  document.querySelector('.firstpage').style.backgroundImage = `url(${images[currentImageIndex].src})`;
+}, 3000);
