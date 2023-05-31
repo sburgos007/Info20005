@@ -1,10 +1,11 @@
 const menu_btn = document.querySelector('.hamburger');
 const mobile_menu = document.querySelector('.mobile-nav');
-
+const aboutbtn = document.querySelector('.about');
 
 menu_btn.addEventListener('click', function () {
   menu_btn.classList.toggle('active');
   mobile_menu.classList.toggle('active');
+  aboutbtn.classList.toggle('active');
 });
 
 function isInputNumber(evt){
