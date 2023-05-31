@@ -692,6 +692,10 @@ input:focus{
         -webkit-text-stroke: 0.2px #1a6a5e ;
     }
 
+    .break{
+        height: 13vw;
+    }
+
 }
 
 /*----------menu------------*/
@@ -1494,6 +1498,10 @@ input::-webkit-inner-spin-button {
         font-size: 3vw;
         width: 80%;
     }
+
+    .cartSummary a{
+        font-size: 4vw;
+    }
 }
 
 /*----------Confirmation------------*/
@@ -1502,10 +1510,9 @@ input::-webkit-inner-spin-button {
     border: 1px solid #1a6a5e;
     padding-top: 4vw;
     border-radius: 40px;
-    padding: 24px 34px;
-    font-size: 1.3vw;
+    font-size: 1.4vw;
     background: transparent;
-    margin: 3% 25%;
+    margin: 3vw 20vw;
 }
 
 .centre{
@@ -1516,17 +1523,17 @@ input::-webkit-inner-spin-button {
 }
 
 .confirmation h2{
-    font-size: 2vw;
     margin-top: 5%;
 }
 
 .confirmation p{
-    font-size: 1.3vw;
+    font-size: 1.5vw;
     margin: 20px;
 }
 
 .confirmation h3{
-    margin: 20px;
+    margin: 1vw -2vw;
+    font-size: 2vw;
 }
 
 .confirmation .order-btn{
@@ -1537,5 +1544,30 @@ input::-webkit-inner-spin-button {
 .confirmation th, td{
     text-align: justify;
     width: 85%;
-    height: 30px;
+    height: 3vw;
+}
+
+@media(max-width: 480px){
+    .confirmation{
+        margin: 3vw 10vw;
+        padding: 4vh;
+    }
+
+    .confirmation h3{
+        font-size: 4vw;
+    }
+
+    .order-btn h3{
+        font-size: 3vw ;
+    }
+
+    .confirmation p{
+        font-size: 2vw;
+        margin: 3vw 11vw
+    }
+
+    .confirmation th, td{
+        font-size: 1.7vw;
+    }
+
 }
