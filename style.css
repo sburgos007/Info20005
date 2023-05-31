@@ -238,7 +238,7 @@ input:focus{
 }
 
 @media(max-width: 768px){
-    .desktop, #searchBar{
+    .desktop, .navbar #searchBar{
         display: none;
     }
     header #viewCart a {
@@ -350,7 +350,7 @@ input:focus{
 
 .mobileLink a{
     position: relative;
-    top: 1.6vh;
+    top: 3vh;
     font-size: 15vw;
     letter-spacing: 1vw;
     font-family: 'ramo';
@@ -658,10 +658,6 @@ input:focus{
     .cat-popular, .cat-drinks, .cat-pizza, .cat-burgers, .cat-vegan, .cat-desserts{
         padding-top: 8%;
     }
-
-    .categories{
-        margin-top: 22vw;
-    }
     .categories img{
         width: 40%;
         left: 30.5%;
@@ -869,13 +865,13 @@ input:focus{
     }
 
     .items-box{
-        height: 65vw;
+        height: 67vw;
         display: block;
     }
 
     .items-box .menuImg{
         width: 99%;
-        height: 65%;
+        height: 60%;
         border-radius: 20px 20px 0px 0px;
     }
 
@@ -891,10 +887,10 @@ input:focus{
         display: grid;
         justify-content: center;
         font-size: 4vw;
-        margin: 1vw;
+        margin: 1.4vw;
     }
 
-    .items-box .icon img {
+    .menu-list .items-box .icon img {
         width: 6vw;
         filter: hue-rotate(10deg);
         filter: brightness(10%);
@@ -917,12 +913,12 @@ input:focus{
     }
 
     .counterBtn{
-        width: 13vw;
+        width: 15vw;
         margin-left: 2vw;
     }
     
     .counterBtn span{ 
-        font-size: 3vw;
+        font-size: 4.5vw;
     }
 }
 
@@ -1048,7 +1044,6 @@ input:focus{
 @media(max-width: 480px){
     .product-banner{
         display: block;
-        margin-block-start: 22vw;
     }
     .halftone{
         position: relative;
@@ -1152,17 +1147,51 @@ input:focus{
 }
 
 .leftCart .icon img{
-    width: 1.5vw;
+    width: 1.3vw;
+    opacity: 60%;
 }
 
-.leftCart h3{
-    font-size: 1.8vw;
+.leftCart h2, .rightCart h2{
+    font-size: 2.5vw;
 }
 
 .leftCart h1{
     font-size: 3vw;
     color: #1a6a5e;
     margin-bottom: 1.5vw;
+}
+
+.discCode {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2vw;
+}
+
+.discCode .order-btn{
+    margin: 0;
+    height: 2vw;
+    font-family: 'newcastle';
+    font-size: 1.2vw;
+    padding-top: 0.7vw;
+}
+
+.discCode .bg-green{
+    border-radius: 3vw 0 0 3vw;
+}
+
+.discCode .apply{
+    right: 0;
+}
+
+#searchBar.codeInput{
+    flex-grow: 1;
+    margin: 0;
+    border-radius: 0 3vw 3vw 0;
+    height: 1.25vw;
+    margin-right: 3vw;
+    padding-left: 1vw;
 }
 
 .rightCart{
@@ -1202,36 +1231,103 @@ input:focus{
     font-size: 2.5vw;
 }
 
+.cartSummary .rightCol{
+    text-align: right;
+}
+
 .cartSummary .order-btn{
-    padding: 4% 20%;
+    width: 50%;
+    padding: 4% 10%;
 }
 
 @media(max-width: 480px){
     .cart.cartContainer{
-        margin: 5vw 10vw;
+        margin: 10vw;
         flex-direction: column;
     }
     .leftCart .items-box {
+        display: flex;
         margin-bottom: 4vw;
         width: 100%;
         height: 25.3vw;
     }
-    .cartProduct h3{
+    .cartProduct .green, .icon{
         display: none;
     }
 
-    .leftCart .items-box .menuImg{
+    .cart .items-box .menuImg{
         width: 25vw;
         height: 25vw;
         border: 0.2vw solid #1a6a5e;
         border-radius: 20px 0 0 20px;
+        object-fit: cover;
     }
 
+    .cart .itemsContent {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 10%;
+        margin: 0 1vw;
+    }
+   
+    .cart .itemsContent .itemPrice{
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 3.5vw;
+        margin-top: 1vw;
+        left: 0;
+    }
+
+    .cart .itemsContent h3{
+        margin-top: 1.5vw;
+        font-size: 5vw;
+        line-height: 6vw;
+    }
+    .discCode .order-btn{
+        height: 4vw;
+        font-size: 3vw;
+    }
+    #searchBar.codeInput{
+        height: 3.6vw;
+        margin-right: 3vw;
+    }
+    .discCode #searchBar input{
+        font-size:2vw;
+    }
     .rightCart{
         width: 98%;
-        padding:0;
+        padding: 10vw 0;
         margin: 0;
+        margin-top: 10vw;
     }
+    .rightCart h2{
+        font-size: 5.5vw;
+    }
+    .cartSummary th, td{
+        width: 80%;
+        font-size: 3vw;
+    }
+    .cartSummary p{
+        padding-right: 10vw;
+        font-size: 2.6vw;
+    }
+    .cartSummary .order-btn h3{
+        font-size: 3.5vw;
+    }
+    .leftCart .counterBtn{
+        width: 15vw;
+        height: 6vw;
+        bottom: 10vw;
+    }
+    .cart .counterBtn span{
+        font-size: 4.5vw;
+    }
+    .itemsContent .icon img{
+        width: 3.5vw;
+        margin-right: 2vw;
+        margin-bottom: 0.5vw;
+    }
+
 }
 
 /*----------Checkout------------*/
