@@ -597,6 +597,34 @@ input:focus{
     margin-top: 1vw;
 }
 
+@media(max-width: 480px){
+    .cluster{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .cluster h3{
+        font-size: 5vw;
+    }
+
+    .cluster p{
+        font-size: 3vw;
+        padding-bottom: 1vw;
+    }
+
+    .box{
+        text-align: center;
+    }
+
+    .cluster > *{
+        margin: 4vw;
+    }
+
+    .socials-icons{
+        width: 38%;
+    }
+}
+
 /*----------search------------*/
 
 .categories{
@@ -1562,12 +1590,12 @@ input::-webkit-inner-spin-button {
     }
 
     .confirmation p{
-        font-size: 2vw;
-        margin: 3vw 11vw
+        font-size: 2.5vw;
+        margin: 3vw 7vw
     }
 
     .confirmation th, td{
-        font-size: 1.7vw;
+        font-size: 2vw;
     }
 
 }
