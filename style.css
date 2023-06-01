@@ -1442,7 +1442,8 @@ input:focus{
 /*----------Checkout------------*/
 
 .pay-details h2{
-    margin-top: 2%;
+    margin-top: 3vw;
+    font-size: 2vw;
 }
 
 .pay-details h3{
@@ -1453,7 +1454,7 @@ input:focus{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    margin: 2% 5%;
+    margin: 5vw;
 }
 .info-form{
     margin-right: 3vw;
