@@ -15,6 +15,28 @@ function isInputNumber(evt){
   }
 }
 
+function plus() {
+  document.getElementById('number').stepUp();
+}
+function minus() {
+  document.getElementById('number').stepDown();
+}
+
+function plus2() {
+  document.getElementById('number2').stepUp();
+}
+function minus2() {
+  document.getElementById('number2').stepDown();
+}
+
+function plus3() {
+  document.getElementById('number3').stepUp();
+}
+function minus3() {
+  document.getElementById('number3').stepDown();
+}
+
+
 
 
 // ABOUT SECTION 
