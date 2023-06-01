@@ -574,11 +574,20 @@ input:focus{
     position: absolute;
     background-color: #1a6a5e;
     color: #fdf9ed;
-    margin-top: 0;
+    padding: 2vw 0;
+    width: 100vw;
 }
 
 .cluster > * {
-    margin: 1.5rem;
+    margin: 1rem;
+}
+
+.cluster h3{
+    font-size: 2vw;
+}
+
+.cluster p{
+    font-size: 1.3vw;
 }
 
 .box{
@@ -586,7 +595,7 @@ input:focus{
 }
 
 .socials-icons{
-    width: 50%;
+    width:15vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -902,7 +911,7 @@ input:focus{
     display: none;
     position: fixed;
     z-index: 1;
-    bottom: 3vh;
+    bottom: 10vh;
     margin-left: 17.5vw;
 }
 
@@ -1026,12 +1035,12 @@ input:focus{
 }
 
 .banner-txt{
-    margin: 4vw 16vw;
+    margin: 4vw 10vw;
 }
 
 .pizzaImg{
-    width: 50vw;
-    margin-bottom: -53vw;
+    width: 60vw;
+    margin-bottom: -50vw;
     margin-left: -11vw;
 }
 
@@ -1070,9 +1079,9 @@ input:focus{
 }
 
 .size-btn:hover{
-    border: 1px solid #d9603C;
-    background-color: #d9603C;
-    color: #fdf9ed;
+    border: 1px solid #fdf9ed;
+    background-color: #fdf9ed;
+    color: #1A685E;
 }
 
 .cart-btn2{
@@ -1119,7 +1128,8 @@ input:focus{
 }
 
 .slider-container h3{
-    font-size: 2vw;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.6vw;
 }
 
 .margins{
@@ -1137,15 +1147,20 @@ input:focus{
 @media(max-width: 480px){
     .product-banner{
         display: block;
+        padding-bottom: 4vw;
     }
     .halftone{
+        margin-top: 4vw;
         position: relative;
+        width: 300%;
     }
 
     .pizzaImg{
+        position: absolute;
+        width: 80%;
         margin-bottom: 0vw;
-        margin-top: -30vw;
-        margin-left: 23vw;
+        margin-top: -80vw;
+        margin-left: 10vw;
     }
 
     .banner-txt{
@@ -1155,15 +1170,18 @@ input:focus{
     }
 
     .banner-txt p{
-        font-size: 2vw;
+        font-size: 2.9vw;
+        margin-top: 6vw;
     }
 
     .banner-txt h2{
-        font-size: 6vw;
+        font-size: 10vw;
+        line-height: 10vw;
     }
 
     .banner-txt ul li{
-        font-size: 2vw;
+        font-size: 3vw;
+        margin-bottom: 4vw;
     }
 
     .cart-btn2 h2{
@@ -1331,6 +1349,11 @@ input:focus{
 .cartSummary .order-btn{
     width: 50%;
     padding: 4% 10%;
+}
+
+.cartSummary .centre.border th{
+    font-size: 2vw;
+    font-family: 'newcastle';
 }
 
 @media(max-width: 480px){
@@ -1605,6 +1628,7 @@ input::-webkit-inner-spin-button {
 
 .confirmation h2{
     margin-top: 5%;
+    font-size: 2.5vw;
 }
 
 .confirmation p{
@@ -1626,6 +1650,11 @@ input::-webkit-inner-spin-button {
     text-align: justify;
     width: 85%;
     height: 3vw;
+}
+
+.confirmation .centre.border th{
+    font-size: 2vw;
+    font-family: 'newcastle';
 }
 
 @media(max-width: 480px){
