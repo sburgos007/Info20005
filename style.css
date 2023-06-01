@@ -320,6 +320,10 @@ input:focus{
     text-align:center;
 }
 
+.page1-container{
+    display: none;
+}
+
 .firstpage{
     min-height:100vh;
     width: 100%;
@@ -467,7 +471,7 @@ input:focus{
 .promotext{
     color: #fdf9ed;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 1vw;
     font-size: 3vw;
 }
 
@@ -491,7 +495,6 @@ input:focus{
 @media(max-width: 480px){
     .scroll h3{
         font-size: 6vw;
-        padding-bottom: 1vw;
     }
 }
 
@@ -601,6 +604,7 @@ input:focus{
     .cluster{
         flex-direction: column;
         align-items: center;
+        padding: 10vw 0;
 
     }
     .cluster h3{
@@ -617,7 +621,7 @@ input:focus{
     }
 
     .cluster > *{
-        margin: 4vw;
+        margin: 7vw;
     }
 
     .socials-icons{
@@ -751,6 +755,7 @@ input:focus{
     align-items: center;
     margin-left: 3%;
     margin-right: 3%;
+    margin-bottom: 2%;
     overflow-x: auto;
 }
 
@@ -758,14 +763,13 @@ input:focus{
     min-width: 10%;
     color: #1a6a5e;
     text-align: center;
-    border: 0.2vw solid #1a6a5e;
+    border: 0.17vw solid #1a6a5e;
     border-radius: 40px;
     padding: 0.8% 2.7%;
     font-size: 1.2vw;
     background: transparent;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    margin-right: 3%;
+    margin: 3%;
+    margin-left: 0;
     font-family: 'newcastle'
 }
 
@@ -809,6 +813,17 @@ input:focus{
     align-items: flex-start;
 }
 
+.items-box {
+    opacity: 0;
+    transform: translateX(-20%);
+    transition: opacity 2s ease, transform 1s ease;
+  }
+  
+  .items-box.slide-in {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
 .items-box h3{
     font-size: 2vw;
     line-height: 60%;
@@ -822,7 +837,7 @@ input:focus{
     width:37%;
     background: #fdf9ed;
     border-radius: 20px 0px 0px 20px;
-    border: 0.2vw solid #1a6a5e;
+    border: 0.17vw solid #1a6a5e;
     display: flex;
 }
 
@@ -1383,7 +1398,6 @@ input:focus{
         font-size: 3vw;
     }
     .cartSummary p{
-        padding-right: 10vw;
         font-size: 2.6vw;
     }
     .cartSummary .order-btn h3{
@@ -1548,7 +1562,7 @@ input::-webkit-inner-spin-button {
         margin-bottom: 5vw;
     }
 
-    .rightCart{
+    .confirm-container .rightCart{
         width: 79.5vw;
         padding: 4vw 0vw;
         margin-left: -3vw;
@@ -1574,7 +1588,7 @@ input::-webkit-inner-spin-button {
 /*----------Confirmation------------*/
 
 .confirmation{
-    border: 1px solid #1a6a5e;
+    border: 3px solid #cfdcd0;
     padding-top: 4vw;
     border-radius: 40px;
     font-size: 1.4vw;

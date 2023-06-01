@@ -1,11 +1,13 @@
+
+// Hamburger menu display on toggle
 const menu_btn = document.querySelector('.hamburger');
 const mobile_menu = document.querySelector('.mobile-nav');
 const aboutbtn = document.querySelector('.about');
 
 menu_btn.addEventListener('click', function () {
+  aboutbtn.classList.toggle('active');
   menu_btn.classList.toggle('active');
   mobile_menu.classList.toggle('active');
-  aboutbtn.classList.toggle('active');
 });
 
 function isInputNumber(evt){
@@ -38,58 +40,39 @@ function minus3() {
 
 
 
+// Change background image every 5 seconds
+let images = document.querySelectorAll('.page1-container img');
+let currentImageIndex = 0;
 
-// ABOUT SECTION 
-// // Initially check the scroll position on page load
-// toggleActiveClass();
+setInterval(() => {
+  // Hide the current image
+  images[currentImageIndex].style.display = 'none';
 
-// // Event listener for scroll event
-// window.addEventListener('scroll', toggleActiveClass);
+  // Increment the image index
+  currentImageIndex = (currentImageIndex + 1) % images.length;
 
-// // Get the aboutSection element
-// const aboutSection = document.querySelector('#aboutSection');
+  // Show the next image
+  images[currentImageIndex].style.display = 'block';
 
-// // Get the about link in the navbar
-// const aboutLink = document.querySelector('a[href="#aboutSection"]');
-
-// // Function to check if aboutSection is in the viewport
-// function isElementInViewport(element) {
-//     const rect = element.getBoundingClientRect();
-//     return (
-//         rect.top >= 0 &&
-//         rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
-//     );
-// }
-
-// // Function to add or remove active class based on scroll position
-// function toggleActiveClass() {
-//     if (isElementInViewport(aboutSection)) {
-//         aboutLink.classList.add('active');
-//     } else {
-//         aboutLink.classList.remove('active');
-//     }
-// }
-
-// // Hover effect on menu category buttons
-// document.addEventListener('DOMContentLoaded', function() {
-//   var catButtons = document.querySelectorAll('.cat-button p');
-//   catButtons.forEach(function(button) {
-//     button.addEventListener('mouseenter', function() {
-//       this.classList.add('hover');
-//     });
-//     button.addEventListener('mouseleave', function() {
-//       this.classList.remove('hover');
-//     });
-//   });
-// });
-
-// paybutton = document.querySelectorAll('.dot');
-
-// buttons.forEach(button => {
-// button.addEventListener('click', () => {
-//   button.style.backgroundColor = '#1a685e';
-// });
-// }); 
+  // Set the background image of .firstpage
+  document.querySelector('.firstpage').style.backgroundImage = `url(${images[currentImageIndex].src})`;
+}, 4000);
 
 
+// Sliding menu items
+function slideInItems() {
+  let items = document.querySelectorAll('.items-box');
+  let windowHeight = window.innerHeight;
+
+  items.forEach((item, index) => {
+    let itemTop = item.getBoundingClientRect().top;
+
+    if (itemTop < windowHeight || index < 2) {
+      item.classList.add('slide-in');
+    }
+  });
+}
+
+window.addEventListener('scroll', slideInItems);
+window.addEventListener('DOMContentLoaded', slideInItems);
 
