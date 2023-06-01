@@ -1515,7 +1515,7 @@ input::-webkit-inner-spin-button {
 }
 #paypal{
     width: 11%;
-    margin: 0vw 0.5vw;
+    margin: 3% 0.5vw;
 }
 .paybutton{
     display: flex;
@@ -1542,15 +1542,50 @@ input::-webkit-inner-spin-button {
     background: #1A685E;
   }
 
-  .minicontainer1 p{
+  .greenhover{
     border: 1px solid #1A685E;
     border-radius: 100px;
     padding: 0.25vw 4vw;
   }
 
-  .minicontainer1 p:hover{
+  .greenhover:hover{
     background: #1A685E;
     color: #fdf9ed;
+  }
+
+  #card-details{
+    border: 1px solid #1A685E;
+    border-radius: 3vw;
+    padding: 1vw 0vw;
+    margin-top: 1vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    display: none;
+  }
+
+
+  .card-info{
+    width: 34vw;
+    margin: 0vw 2vw;
+  }
+
+  .card-info input{
+    height: 2vw;
+    font-size: 1.5vw;
+  }
+
+  #card-mini input{
+    width: 11vw;
+  }
+
+  #card-mini p{
+    border: none;
+    padding: initial;
+  }
+
+  #CVV{
+    margin-right: 6vw;
   }
 
 
@@ -1605,6 +1640,28 @@ input::-webkit-inner-spin-button {
 
     .cartSummary a{
         font-size: 4vw;
+    }
+
+    #card-details{
+        margin-top: -3vw;
+    }
+
+    .card-info{
+        width: 80%;
+        margin: 0vw 7vw;
+    }
+
+    .card-info input{
+        height: 4vw;
+        font-size: 3vw;
+    }
+    
+    #card-mini{
+        align-items: center;
+    }
+
+    #CVV{
+        margin-right: 35vw;
     }
 }
 

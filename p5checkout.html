@@ -80,9 +80,9 @@
                     <div class="leftCheck">
                         <p>Time</p>
                         <div class="minicontainer1">
-                            <p>ASAP</p> 
+                            <p class="greenhover">ASAP</p> 
                             <h3>or</h3>
-                            <p>Choose time</p>
+                            <p class="greenhover">Choose time</p>
                         </div>
                     </div>
                     <div class="leftCheck">
@@ -98,17 +98,33 @@
                         </div>
                         <div class="paybutton">
                             <span class="dot"></span>
-                            <img id="paypal" src="imageSources/pay paypal.png" alt="">
-                            <p>PayPal</p>
-                        </div>
-                        <div class="paybutton">
-                            <span class="dot"></span>
                             <img class="reg-img" src="imageSources/pay google.png" alt="">
                             <p>Google Pay</p>
                         </div>
                         <div class="paybutton">
-                            <span class="dot"></span>
+                            <span class="dot" onclick="showDetails()"></span>
                             <p>Card</p>
+                        </div>
+                        <div class="paybutton">
+                            <span class="dot"></span>
+                            <img id="paypal" src="imageSources/pay paypal.png" alt="">
+                            <p>PayPal</p>
+                        </div>
+                    </div>
+                    <div id="card-details" class="leftCheck">
+                        <div class="card-info">
+                            <p> Card Number</p>
+                            <input type="text" maxlength="10" onkeypress="isInputNumber(event)">
+                        </div>
+                        <div id="card-mini" class="minicontainer1 card-info">
+                            <div>
+                                <p> Expiry</p>
+                                <input type="text" maxlength="5" placeholder="">
+                            </div>
+                            <div id="CVV">
+                                <p> CVV</p>
+                                <input type="text" maxlength="3" onkeypress="isInputNumber(event)">
+                            </div>
                         </div>
                     </div>
                 </form> 
