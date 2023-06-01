@@ -38,6 +38,15 @@ function minus3() {
   document.getElementById('number3').stepDown();
 }
 
+function showDetails() {
+  var x = document.getElementById("card-details");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
 
 
 // Change background image every 5 seconds
