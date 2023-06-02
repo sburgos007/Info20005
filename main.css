@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'newcastle';
+    src:
+         url('./fontAssets/newcastle_basic_clean-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ramo';
+    src:
+         url('./fontAssets/ramo-demagnolia-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+    margin: 0 ;
+    padding: 0;
+    font-family: 'IBM Plex Mono', monospace;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #fdf9ed;
+    overflow-x: hidden;
+}
+
+body p{
+    font-size: 1vw;
+}
+
+body h3{
+    font-family: 'newcastle';
+    font-size: 1.3vw;
+}
+
+body h2{
+    font-family: 'newcastle';
+    font-size: 3vw;
+}
+
+a {
+    font-family: 'newcastle';
+}
+label{
+    font-size: 1.5vw;
+}
+
+body h1{
+    font-family: 'ramo';
+}
