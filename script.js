@@ -34,10 +34,15 @@ const isInViewport = (element) => {
   );
 };
 
+
+
 // Function to handle scroll event on menu
 const handleScroll = () => {
   const aboutSection = document.getElementById('aboutSection');
-  if (isInViewport(aboutSection)) {
+  const viewportHeight = window.innerHeight || document.documentElement.clientHeight;
+  const scrollThreshold = aboutSection.offsetTop + aboutSection.offsetHeight * 0.4 - viewportHeight;
+
+  if (window.pageYOffset >= scrollThreshold) {
     aboutLink.classList.add('active');
     homeLink.classList.remove('active');
   } else {
@@ -91,13 +96,7 @@ let images = document.querySelectorAll('.page1Container img');
 let currentImageIndex = 0;
 
 setInterval(() => {
-  // Hide the current image
-  images[currentImageIndex].style.display = 'none';
-
-  // Increment the image index
   currentImageIndex = (currentImageIndex + 1) % images.length;
-
-  // Show the next image
   images[currentImageIndex].style.display = 'block';
 
   // Set the background image of .firstPage
