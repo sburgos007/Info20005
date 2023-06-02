@@ -144,10 +144,6 @@ header #viewCart a:hover{
     padding-top: 0.2vw;
 }
 
-input:focus{
-    border-color: #1a6a5e;
-}
-
 #searchBar img, #mobileSearchBar img{
     width: 12%;
     margin-right: 1vw;
