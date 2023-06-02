@@ -1537,24 +1537,29 @@ input::-webkit-inner-spin-button {
     border-radius: 50%;
     display: inline-block;
     margin-right: 0.5vw;
-  }
+    background-color: #fdf9ed;
+}
 
-  .dot:hover{
-    background: #1A685E;
-  }
+#dot1, #dot2, #dot3, #dot{
+    background-color: #fdf9ed;
+}
 
-  .greenhover{
+#dot1.clicked, #dot2.clicked, #dot3.clicked, #dot4.clicked{
+    background-color: #1a6a5e;
+}
+
+.greenhover{
     border: 1px solid #1A685E;
     border-radius: 100px;
     padding: 0.25vw 4vw;
   }
 
-  .greenhover:hover{
+.greenhover:hover{
     background: #1A685E;
     color: #fdf9ed;
   }
 
-  #card-details{
+#card-details{
     border: 1px solid #1A685E;
     border-radius: 3vw;
     padding: 1vw 0vw;
@@ -1565,32 +1570,31 @@ input::-webkit-inner-spin-button {
     display: none;
   }
 
-
-  .card-info{
+.card-info{
     width: 34vw;
     margin: 0vw 2vw;
   }
 
-  .card-info input{
+.card-info input{
     height: 2vw;
     font-size: 1.5vw;
   }
 
-  #card-mini input{
+#card-mini input{
     width: 11vw;
   }
 
-  #card-mini p{
+#card-mini p{
     border: none;
     padding: initial;
   }
 
-  #CVV{
+#CVV{
     margin-right: 6vw;
   }
 
 
-  @media(max-width: 480px){
+@media(max-width: 480px){
     .confirm-container{
         flex-direction: column;
         align-items: center;
@@ -1663,6 +1667,12 @@ input::-webkit-inner-spin-button {
 
     #CVV{
         margin-right: 35vw;
+    }
+
+    .dot{
+        height: 3vw;
+        width: 3vw;
+        margin-left: 1vw;
     }
 }
 

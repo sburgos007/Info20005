@@ -73,12 +73,13 @@ function minus3() {
   document.getElementById('number3').stepDown();
 }
 
+
 function showDetails() {
-  var x = document.getElementById("card-details");
-  if (x.style.display === "none") {
-    x.style.display = "block";
+  var details = document.getElementById("card-details");
+  if (details.style.display === "none") {
+    details.style.display = "block";
   } else {
-    x.style.display = "none";
+    details.style.display = "none";
   }
 }
 
@@ -119,3 +120,27 @@ function slideInItems() {
 window.addEventListener('scroll', slideInItems);
 window.addEventListener('DOMContentLoaded', slideInItems);
 
+// Change colour payment buttons -------------
+const dot1 = document.getElementById("dot1");
+
+dot1.addEventListener("click", () => {
+dot1.classList.toggle('clicked');
+})
+
+const dot2 = document.getElementById("dot2");
+
+dot2.addEventListener("click", () => {
+dot2.classList.toggle('clicked');
+})
+
+const dot3 = document.getElementById("dot3");
+
+dot3.addEventListener("click", () => {
+dot3.classList.toggle('clicked');
+})
+
+const dot4 = document.getElementById("dot4");
+
+dot4.addEventListener("click", () => {
+dot4.classList.toggle('clicked');
+})
