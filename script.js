@@ -74,6 +74,8 @@ function minus3() {
 }
 
 
+
+// Adding pop up section for card input details----------------------------
 function showDetails() {
   var details = document.getElementById("cardDetails");
   if (details.style.display === "none") {
@@ -120,27 +122,20 @@ function slideInItems() {
 window.addEventListener('scroll', slideInItems);
 window.addEventListener('DOMContentLoaded', slideInItems);
 
+
+
+
 // Change colour payment buttons -------------
-const dot1 = document.getElementById("dot1");
 
-dot1.addEventListener("click", () => {
-dot1.classList.toggle('clicked');
-})
+const dots = document.querySelectorAll('.dot');
+let currentDot = null;
 
-const dot2 = document.getElementById("dot2");
-
-dot2.addEventListener("click", () => {
-dot2.classList.toggle('clicked');
-})
-
-const dot3 = document.getElementById("dot3");
-
-dot3.addEventListener("click", () => {
-dot3.classList.toggle('clicked');
-})
-
-const dot4 = document.getElementById("dot4");
-
-dot4.addEventListener("click", () => {
-dot4.classList.toggle('clicked');
-})
+dots.forEach((dot) => {
+  dot.addEventListener('click', () => {
+    if (currentDot) {
+      currentDot.classList.remove('clicked');
+    }
+    dot.classList.add('clicked');
+    currentDot = dot;
+  });
+});
