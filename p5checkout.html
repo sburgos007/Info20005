@@ -32,7 +32,7 @@
             <div class="bar"></div>
         </button>
     </header>
-    <nav class="mobile-nav">
+    <nav class="mobileNav">
         <div id="mobileSearchBar">
             <img src="imageSources/icon search.png">
             <input type="text" placeholder="Pizza...">
@@ -42,17 +42,17 @@
         <a href="p2menu.html">Menu</a>
     </nav>
 
-    <section class="menu-banner">
+    <section class="menuBanner">
         <div class="title">
             <h1>PAYMENT</h1>
         </div>
     </section> 
 
-    <section class="pay-details green">
-        <div class="confirm-container">
+    <section class="green" id="payDetails">
+        <div id="confirmContainer">
             <div>
                 <h2>DELIVERY DETAILS</h2>
-                <form class="info-form">
+                <form id="infoForm">
                     <div class="leftCheck">
                         <label class="form-label">Name</label>
                             <input id="name" type="text">
@@ -93,12 +93,12 @@
                     <div class="paysection leftCheck">
                         <div class="paybutton">
                             <span class="dot" id="dot1" ></span>
-                            <img class="reg-img" src="imageSources/pay apple.png" alt="">
+                            <img class="regImg" src="imageSources/pay apple.png" alt="">
                             <p>Apple Pay</p>
                         </div>
                         <div class="paybutton">
                             <span class="dot" id="dot2"></span>
-                            <img class="reg-img" src="imageSources/pay google.png" alt="">
+                            <img class="regImg" src="imageSources/pay google.png" alt="">
                             <p>Google Pay</p>
                         </div>
                         <div class="paybutton">
@@ -111,12 +111,12 @@
                             <p>PayPal</p>
                         </div>
                     </div>
-                    <div id="card-details" class="leftCheck" style="display: none;">
-                        <div class="card-info">
+                    <div id="cardDetails" class="leftCheck" style="display: none;">
+                        <div class="cardInfo">
                             <p> Card Number</p>
                             <input type="text" maxlength="10" onkeypress="isInputNumber(event)">
                         </div>
-                        <div id="card-mini" class="minicontainer1 card-info">
+                        <div id="cardMini" class="minicontainer1 cardInfo">
                             <div>
                                 <p> Expiry</p>
                                 <input type="text" maxlength="5" placeholder="">
@@ -157,7 +157,7 @@
             
             <p>*Excludes Delivery Fee </p>
 
-            <div class="order-btn"> 
+            <div class="orderBtn"> 
                 <a class="white" href="p6confirmation.html">Confirm Order</a>
             </div>
         </div>
@@ -176,7 +176,7 @@
                 </div>
 
                 <div class="box socials">
-                    <img src="imageSources/icon socials.png" alt="socials icon" class="socials-icons">
+                    <img src="imageSources/icon socials.png" alt="socials icon" class="socialsIcons">
                 </div>
 
                 <div class="box contact">

@@ -169,7 +169,7 @@ input:focus{
     background: none;
 }
 
-.mobile-nav{
+.mobileNav{
     position: fixed;
     top: 9.5vw;
     right: -100%;
@@ -181,7 +181,7 @@ input:focus{
     transition: 0.4s;
 }
 
-.mobile-nav.active{
+.mobileNav.active{
     right:0
 }
 
@@ -206,7 +206,7 @@ input:focus{
     background-color: #fff;
 }
 
-.mobile-nav a{
+.mobileNav a{
     font-size: 3vw;
     color: #1a6a5e;
     display: block;
@@ -250,7 +250,7 @@ input:focus{
 }
 
 @media (min-width: 769px) {
-    .mobile-nav {
+    .mobileNav {
         display: none;
     }
     .hamburger{
@@ -277,11 +277,11 @@ input:focus{
         margin-top: 4vw;
         margin-right: 10vw;
     }
-    .mobile-nav{
+    .mobileNav{
         top: 19vw;
     }
 
-    .mobile-nav a{
+    .mobileNav a{
         font-size: 5vw;
     }
     .hamburger .bar, .hamburger:after, .hamburger:before{
@@ -301,7 +301,7 @@ input:focus{
 }
 
 /*------------Homepage Page 1-----------*/
-.order-btn{
+.orderBtn{
     display: inline-block;
     color: #fdf9ed;
     font-size: 1.5vw;
@@ -312,7 +312,7 @@ input:focus{
     position: relative;
 }
 
-.btn-pos{
+.btnPos{
     bottom: 7%;
     right: 4%;
     width: 20%;
@@ -320,11 +320,11 @@ input:focus{
     text-align:center;
 }
 
-.page1-container{
+.page1Container{
     display: none;
 }
 
-.firstpage{
+.firstPage{
     min-height:100vh;
     width: 100%;
     height: 100%;
@@ -333,19 +333,19 @@ input:focus{
     background-size: cover;
 }
 
-.order-btn h1 a{
+.orderBtn h1 a{
     font-size: 2.5vw;
     color: #fdf9ed;
 }
 
-.firstpage .mobileLink{
+.firstPage .mobileLink{
     position: absolute;
     z-index: 0;
     bottom: 0;
     width: 100vw;
 }
 
-.firstpage .mobileLink .p1btn{
+.firstPage .mobileLink .p1btn{
     position: static;
     height: 13vh;
     justify-content: center;
@@ -361,14 +361,14 @@ input:focus{
 }
 
 @media (min-width: 481px) {
-    .firstpage .mobileLink{
+    .firstPage .mobileLink{
         display: none;
     }
 }
 
 /* Mobile Homepage */
 @media(max-width: 480px){
-    .firstpage .order-btn{
+    .firstPage .orderBtn{
         display: none;
     }
 }
@@ -387,64 +387,64 @@ input:focus{
     flex-basis: 50%;
 }
 
-.bestsellers-col2{
+.bestsellersCol2{
     text-align: center;
     color: #fdf9ed;
     margin-top: 5.5%;
     margin-left: 10%;
 }
 
-.bestsellers-col1 img{
+.bestsellersCol1 img{
     margin:auto;
     width: 125%;
     height: 100%;
 }
-.bestsellers-col2 img{
+.bestsellersCol2 img{
     width: 30%;
     margin-top: 3%;
 }
 
-.bestsellers-col2 h2{
+.bestsellersCol2 h2{
     font-size: 3vw;
     margin-bottom: 20px;
 }
 
-.bestsellers-col2 h3{
+.bestsellersCol2 h3{
     font-size: 2.3vw;
     margin-top: 10px;
 }
 
-#bestSellers .order-btn{
+#bestSellers .orderBtn{
     background-color: transparent;
     border: 1px solid #fdf9ed;
 }
 
 @media(max-width: 480px){
-    .bestsellers-col1 img{
+    .bestsellersCol1 img{
         display: none;
     }
 
-    .bestsellers-col2{
+    .bestsellersCol2{
         margin: 20vw 0vw;
 
     }
 
-    .bestsellers-col2 h3{
+    .bestsellersCol2 h3{
         font-size: 8vw;
         margin: 0;
     }
 
-    .bestsellers-col2 p{
+    .bestsellersCol2 p{
         font-size: 4vw;
         margin: 2vw 0;
     }
 
-    .bestsellers-col2 img{
+    .bestsellersCol2 img{
         width: 55%;
         margin: 10vw 0;
     }
 
-    .bestsellers-col2 .order-btn{
+    .bestsellersCol2 .orderBtn{
         font-size: 4vw;
         padding: 3vw 10vw;
         margin-top: 4vw;
@@ -507,31 +507,31 @@ input:focus{
     flex-basis: 30%;
 }
 
-.image-container{
+.imageContainer{
     width: 85%;
 }
 
-.image-container img{
+.imageContainer img{
     display: block;
     width: 85%;
 }
 
-.about .row .abouttext{
+.about .row .aboutText{
     flex-basis: 40%;
     margin-right: 8.3%;
     color: #1a6a5e;
     /* text-align: justify; */
 }
 
-.abouttext{
+.aboutText{
     top: 30%
 }
 
-.abouttext > * + * {
+.aboutText > * + * {
     margin-top: 1rem;
 }
 
-.abouttext h1{
+.aboutText h1{
     font-size: 3.3vw;
     letter-spacing: 0.1rem;
 }
@@ -540,28 +540,28 @@ input:focus{
     .about .row{
         flex-direction: column-reverse;
     }
-    .image-container{
+    .imageContainer{
         width: 100%;
     }
-    .image-container img{
+    .imageContainer img{
         width: 100%;
     }
-    .abouttext{
+    .aboutText{
         margin: 10%;
         text-align: center;
     }
-    .abouttext h1{
+    .aboutText h1{
         display: flex;
         justify-content: center;
         font-size: 13vw;
         margin-bottom: 6vw;
     }
-    .abouttext p{
+    .aboutText p{
         margin-left: 4vw;
         margin-right: 4vw;
         font-size: 3vw;
     }
-    .abouttext h3{
+    .aboutText h3{
         font-size: 4vw;
     }
 }
@@ -594,7 +594,7 @@ input:focus{
     flex-basis: 33%;
 }
 
-.socials-icons{
+.socialsIcons{
     width:15vw;
     display: block;
     margin-left: auto;
@@ -607,6 +607,10 @@ input:focus{
 
 .contactInfo{
     margin-top: 1vw;
+}
+
+.hours, .socials, .contact{
+    margin: 1vw 6vw;
 }
 
 @media(max-width: 480px){
@@ -633,9 +637,10 @@ input:focus{
         margin: 7vw;
     }
 
-    .socials-icons{
+    .socialsIcons{
         width: 38%;
     }
+
 }
 
 /*----------search------------*/
@@ -657,31 +662,31 @@ input:focus{
 .break{
     height: 6vw;
 }
-.cat-popular, .cat-drinks, .cat-pizza, .cat-burgers, .cat-vegan, .cat-desserts{
+.catPopular, .catDrinks, .catPizza, .catBurgers, .catVegan, .catDesserts{
     padding: 3vw 0vw;
     width: 100%;
     position: relative;
 }
 
-.cat-popular a{
+.catPopular a{
     color: #fdf9ed;
 }
 
-.cat-popular img {
+.catPopular img {
     position: absolute;
     bottom: -50%;    
     left: -6%;
     width: 23%;
 }
 
-.cat-burgers img{
+.catBurgers img{
     position: absolute;
     bottom: -53%;    
     left: -9%;
     width: 28%;
 
 }
-.cat-drinks img{
+.catDrinks img{
     position: absolute;
     bottom: -25%;    
     left: -12%;
@@ -689,15 +694,16 @@ input:focus{
 
 }
 
-.cat-pizza img, .cat-vegan img, .cat-desserts img{
+.catPizza img, .catVegan img, .catDesserts img{
     position: absolute;
     bottom: -63%; 
     right: -9%;
     width: 28%;
 }
 
+
 @media(max-width: 480px){
-    .cat-popular, .cat-drinks, .cat-pizza, .cat-burgers, .cat-vegan, .cat-desserts{
+    .catPopular, .catDrinks, .catPizza, .catBurgers, .catVegan, .catDesserts{
         padding-top: 8%;
     }
     .categories img{
@@ -706,11 +712,11 @@ input:focus{
         bottom: -77%;
     }
 
-    .cat-burgers img{
+    .catBurgers img{
         bottom: -54%;
     }
 
-    .cat-drinks img{
+    .catDrinks img{
         bottom: -28%;
     }
 
@@ -721,15 +727,15 @@ input:focus{
         bottom: 5vw;
     }
 
-    .cat-pizza a, .cat-vegan a, .cat-desserts a{
+    .catPizza a, .catVegan a, .catDesserts a{
         -webkit-text-stroke: 0.2px #fdf9ed;
     }
 
-    .cat-popular a, .cat-drinks a{
+    .catPopular a, .catDrinks a{
         -webkit-text-stroke: 0.2px #d9603C;
     }
 
-    .cat-burgers a{
+    .catBurgers a{
         -webkit-text-stroke: 0.2px #1a6a5e ;
     }
 
@@ -741,7 +747,7 @@ input:focus{
 
 /*----------menu------------*/
 
-.menu-banner{
+.menuBanner{
     margin-top:10vw;
     min-height:18vw;
     width: 100%;
@@ -758,7 +764,7 @@ input:focus{
     font-size: 3.5vw;
 }
 
-.cat-button{
+.catBtn{
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -768,7 +774,7 @@ input:focus{
     overflow-x: auto;
 }
 
-.cat-button p{
+.catBtn p{
     min-width: 10%;
     color: #1a6a5e;
     text-align: center;
@@ -782,17 +788,17 @@ input:focus{
     font-family: 'newcastle'
 }
 
-.cat-button .active, .slidertxt:hover {
+.catBtn .active, .slidertxt:hover {
     background-color: #d9603C;
     border: 0.2vw solid #d9603C;
     color: #fdf9ed;
 }
 
-.cat-slider, .cat-carousel{
+.catSlider, .cat-carousel{
     white-space: nowrap;
 }
 
-.menu-list{
+.menuList{
     background-color: #fdf9ed;
 }
 
@@ -806,7 +812,7 @@ input:focus{
     margin-bottom: 25vw;
 }
 
-.items-box{
+.itemsBox{
     display: flex;
     position: relative;
     color: #fdf9ed;
@@ -822,27 +828,27 @@ input:focus{
     align-items: flex-start;
 }
 
-.items-box {
+.itemsBox {
     opacity: 0;
     transform: translateX(-20%);
     transition: opacity 2s ease, transform 1s ease;
   }
   
-  .items-box.slide-in {
+  .itemsBox.slide-in {
     opacity: 1;
     transform: translateX(0);
   }
 
-.items-box h3{
+.itemsBox h3{
     font-size: 2vw;
     line-height: 60%;
 }
 
-.items-box p{
+.itemsBox p{
     margin-top: 2em;
 }
 
-.items-box .menuImg{
+.itemsBox .menuImg{
     width:37%;
     background: #fdf9ed;
     border-radius: 20px 0px 0px 20px;
@@ -850,7 +856,7 @@ input:focus{
     display: flex;
 }
 
-.items-box .icon {
+.itemsBox .icon {
     position: absolute;
     right: 1vw;
     display: flex;
@@ -858,7 +864,7 @@ input:focus{
     align-items: flex-end;
 }
   
-.items-box .icon img {
+.itemsBox .icon img {
     background-color: transparent;
     border: none;
     width: 3vw;
@@ -922,7 +928,7 @@ input:focus{
 }
 
 @media(max-width: 480px){
-    .menu-banner{
+    .menuBanner{
         margin-top:20vw;
         min-height:50vw;
     }
@@ -933,11 +939,11 @@ input:focus{
         letter-spacing: 1vw;
     }
     
-    .cat-button{
+    .catBtn{
        margin-top: 4vw;
     }
     
-    .cat-button p{
+    .catBtn p{
         min-width: 28%;
         padding: 1% 2.4%;
         font-size: 3.5vw;
@@ -949,12 +955,12 @@ input:focus{
         margin-bottom: 50vw;
     }
 
-    .items-box{
+    .itemsBox{
         height: 67vw;
         display: block;
     }
 
-    .items-box .menuImg{
+    .itemsBox .menuImg{
         width: 99%;
         height: 60%;
         border-radius: 20px 20px 0px 0px;
@@ -964,18 +970,18 @@ input:focus{
         padding-top: 3vw;
     }
 
-    .items-box p{
+    .itemsBox p{
         display: none;
     }
 
-    .items-box h3{
+    .itemsBox h3{
         display: grid;
         justify-content: center;
         font-size: 4vw;
         margin: 1.4vw;
     }
 
-    .menu-list .items-box .icon img {
+    .menuList .itemsBox .icon img {
         width: 6vw;
         filter: brightness(100%);
     }
@@ -1019,14 +1025,14 @@ input:focus{
         padding: 2vw 18vw;
     }
 
-    .order-btn h2{
+    .orderBtn h2{
         font-size: 5vw;
     }
 }
 
 /*----------product info------------*/
 
-.product-banner{
+.productBanner{
     display: flex;
     width: 100%;
     flex-flow: row nowrap;
@@ -1034,7 +1040,7 @@ input:focus{
     overflow: hidden;
 }
 
-.banner-txt{
+#bannerTxt{
     margin: 4vw 10vw;
 }
 
@@ -1057,11 +1063,11 @@ input:focus{
     margin-bottom: 2vw;
 }
 
-.product-size{
+#productSize{
     margin: 2.4vw 0vw;
 
 }
-.product-size ul li{
+#productSize ul li{
     list-style: none;
     display: inline-block;
     padding: 0.3vw 2vw;
@@ -1069,7 +1075,7 @@ input:focus{
     font-size: 1vw;
 }
 
-.size-btn{
+.sizeBtn{
     text-decoration: none;
     border: 1px solid #fff;
     border-radius: 20px;
@@ -1078,13 +1084,13 @@ input:focus{
     margin-top: 10px;
 }
 
-.size-btn:hover{
+.sizeBtn:hover{
     border: 1px solid #fdf9ed;
     background-color: #fdf9ed;
     color: #1A685E;
 }
 
-.cart-btn2{
+#cartBtn2{
     display: inline-block;
     text-decoration: none;
     color: #fdf9ed;
@@ -1093,17 +1099,17 @@ input:focus{
     border-radius: 100px;
 }
 
-.cart-btn2 h2{
+#cartBtn2 h2{
     font-size: 2vw;
     color: #fdf9ed;
 }
 
-.addition-title{
+.additionTitle{
     margin-left: 5%;
     padding-top: 5%;
     font-size: 2vw;
 }
-.slider-additions{
+.sliderAdditions{
     margin-top: 10px;
     margin-left: 25px;
     margin-right: 0;
@@ -1112,22 +1118,22 @@ input:focus{
     white-space: nowrap;
 }
 
-.slider-container img{
+.sliderContainer img{
     width: 50%;
 }
 
-.slider-container{
+.sliderContainer{
     display: inline-flex;
     flex-direction: column;
     align-items: center;
     width: 12vw;
 }
 
-.slider-container p{
+.sliderContainer p{
     font-size: 1.5vw;
 }
 
-.slider-container h3{
+.sliderContainer h3{
     font-family: 'IBM Plex Mono', monospace;
     font-size: 1.6vw;
 }
@@ -1145,7 +1151,7 @@ input:focus{
 }
 
 @media(max-width: 480px){
-    .product-banner{
+    .productBanner{
         display: block;
         padding-bottom: 4vw;
     }
@@ -1163,49 +1169,49 @@ input:focus{
         margin-left: 10vw;
     }
 
-    .banner-txt{
+    #bannerTxt{
         text-align: center;
         margin-left: 13vw;
         margin-top: 0vw;
     }
 
-    .banner-txt p{
+    #bannerTxt p{
         font-size: 2.9vw;
         margin-top: 6vw;
     }
 
-    .banner-txt h2{
+    #bannerTxt h2{
         font-size: 10vw;
         line-height: 10vw;
     }
 
-    .banner-txt ul li{
+    #bannerTxt ul li{
         font-size: 3vw;
         margin-bottom: 4vw;
     }
 
-    .cart-btn2 h2{
+    #cartBtn2 h2{
         font-size: 4vw;
     }
 
-    .addition-title{
+    .additionTitle{
         font-size: 4vw;
     }
 
-    .slider-container{
+    .sliderContainer{
         width: 18vw;
         margin-right: 4vw;
     }
 
-    .slider-container img{
+    .sliderContainer img{
         width: 100%;
     }
 
-    .slider-container p{
+    .sliderContainer p{
         font-size: 2.5vw;
     }
 
-    .slider-container h3{
+    .sliderContainer h3{
         font-size: 3vw;
     }
 
@@ -1223,13 +1229,13 @@ input:focus{
     margin: 5%;
 }
 
-.leftCart .items-box {
+.leftCart .itemsBox {
     margin: 0;
     margin-top: 1.5vw;
     width: 45vw;
 }
 
-.leftCart .items-box .menuImg{
+.leftCart .itemsBox .menuImg{
     width: 20%;
     height: 20%;
     border: 0.1vw solid #1a6a5e;
@@ -1280,7 +1286,7 @@ input:focus{
     margin-top: 2vw;
 }
 
-.discCode .order-btn{
+.discCode .orderBtn{
     margin: 0;
     height: 2vw;
     font-family: 'newcastle';
@@ -1288,7 +1294,7 @@ input:focus{
     padding-top: 0.7vw;
 }
 
-.discCode .bg-green{
+.discCode .bgGreen{
     border-radius: 3vw 0 0 3vw;
 }
 
@@ -1346,7 +1352,7 @@ input:focus{
     text-align: right;
 }
 
-.cartSummary .order-btn{
+.cartSummary .orderBtn{
     width: 50%;
     padding: 4% 10%;
 }
@@ -1361,14 +1367,14 @@ input:focus{
         margin: 10vw;
         flex-direction: column;
     }
-    .leftCart .items-box {
+    .leftCart .itemsBox {
         display: flex;
         margin-bottom: 4vw;
         width: 100%;
         height: 25.3vw;
     }
 
-    .cart .items-box .menuImg{
+    .cart .itemsBox .menuImg{
         width: 25vw;
         height: 25vw;
         border: 0.2vw solid #1a6a5e;
@@ -1396,7 +1402,7 @@ input:focus{
         font-size: 5vw;
         line-height: 6vw;
     }
-    .discCode .order-btn{
+    .discCode .orderBtn{
         height: 4vw;
         font-size: 3vw;
     }
@@ -1423,7 +1429,7 @@ input:focus{
     .cartSummary p{
         font-size: 2.6vw;
     }
-    .cartSummary .order-btn h3{
+    .cartSummary .orderBtn h3{
         font-size: 3.5vw;
     }
     .leftCart .counterBtn{
@@ -1441,26 +1447,26 @@ input:focus{
 
 /*----------Checkout------------*/
 
-.pay-details h2{
+#payDetails h2{
     margin-top: 3vw;
     font-size: 2vw;
 }
 
-.pay-details h3{
+#payDetails h3{
     margin-bottom: 1%;
 }
 
-.confirm-container{
+#confirmContainer{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     margin: 5vw;
 }
-.info-form{
+#infoForm{
     margin-right: 3vw;
 }
 
-.info-form input, .info-form textarea{
+#infoForm input, #infoForm textarea{
     border: 1px solid #1a6a5e;
     width: 100%;
     padding-top: 0.5vw;
@@ -1511,7 +1517,7 @@ input::-webkit-inner-spin-button {
     gap: 1vw;
     width: 41vw;
 }
-.reg-img{
+.regImg{
     width: 25%;
 }
 #paypal{
@@ -1559,7 +1565,7 @@ input::-webkit-inner-spin-button {
     color: #fdf9ed;
   }
 
-#card-details{
+#cardDetails{
     border: 1px solid #1A685E;
     border-radius: 3vw;
     padding: 1vw 0vw;
@@ -1570,21 +1576,21 @@ input::-webkit-inner-spin-button {
     display: none;
   }
 
-.card-info{
+.cardInfo{
     width: 34vw;
     margin: 0vw 2vw;
   }
 
-.card-info input{
+.cardInfo input{
     height: 2vw;
     font-size: 1.5vw;
   }
 
-#card-mini input{
+#cardMini input{
     width: 11vw;
   }
 
-#card-mini p{
+#cardMini p{
     border: none;
     padding: initial;
   }
@@ -1595,7 +1601,7 @@ input::-webkit-inner-spin-button {
 
 
 @media(max-width: 480px){
-    .confirm-container{
+    #confirmContainer{
         flex-direction: column;
         align-items: center;
         margin-right: 2.5vw;
@@ -1605,7 +1611,7 @@ input::-webkit-inner-spin-button {
         width: 80vw;
     }
 
-    .pay-details h2{
+    #payDetails h2{
         font-size: 5vw;
         text-align: center;
         margin-top: 7vw;
@@ -1625,7 +1631,7 @@ input::-webkit-inner-spin-button {
         margin-bottom: 5vw;
     }
 
-    .confirm-container .rightCart{
+    #confirmContainer .rightCart{
         width: 79.5vw;
         padding: 4vw 0vw;
         margin-left: -3vw;
@@ -1647,21 +1653,21 @@ input::-webkit-inner-spin-button {
         font-size: 4vw;
     }
 
-    #card-details{
+    #cardDetails{
         margin-top: -3vw;
     }
 
-    .card-info{
+    .cardInfo{
         width: 80%;
         margin: 0vw 7vw;
     }
 
-    .card-info input{
+    .cardInfo input{
         height: 4vw;
         font-size: 3vw;
     }
     
-    #card-mini{
+    #cardMini{
         align-items: center;
     }
 
@@ -1709,7 +1715,7 @@ input::-webkit-inner-spin-button {
     font-size: 2vw;
 }
 
-.confirmation .order-btn{
+.confirmation .orderBtn{
     padding: 0% 20%;
     margin-bottom: 5%;
 }
@@ -1735,7 +1741,7 @@ input::-webkit-inner-spin-button {
         font-size: 4vw;
     }
 
-    .order-btn h3{
+    .orderBtn h3{
         font-size: 3vw ;
     }
 

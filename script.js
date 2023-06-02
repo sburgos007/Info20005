@@ -1,7 +1,7 @@
 
 // Hamburger menu display on toggle ---------------------------------------
 const menu_btn = document.querySelector('.hamburger');
-const mobile_menu = document.querySelector('.mobile-nav');
+const mobile_menu = document.querySelector('.mobileNav');
 
 menu_btn.addEventListener('click', function () {
   menu_btn.classList.toggle('active');
@@ -75,7 +75,7 @@ function minus3() {
 
 
 function showDetails() {
-  var details = document.getElementById("card-details");
+  var details = document.getElementById("cardDetails");
   if (details.style.display === "none") {
     details.style.display = "block";
   } else {
@@ -85,7 +85,7 @@ function showDetails() {
 
 
 // Change background image every 5 seconds ---------------------------------
-let images = document.querySelectorAll('.page1-container img');
+let images = document.querySelectorAll('.page1Container img');
 let currentImageIndex = 0;
 
 setInterval(() => {
@@ -98,14 +98,14 @@ setInterval(() => {
   // Show the next image
   images[currentImageIndex].style.display = 'block';
 
-  // Set the background image of .firstpage
-  document.querySelector('.firstpage').style.backgroundImage = `url(${images[currentImageIndex].src})`;
+  // Set the background image of .firstPage
+  document.querySelector('.firstPage').style.backgroundImage = `url(${images[currentImageIndex].src})`;
 }, 4000);
 
 
 // Sliding menu items --------------------------------------------------------
 function slideInItems() {
-  let items = document.querySelectorAll('.items-box');
+  let items = document.querySelectorAll('.itemsBox');
   let windowHeight = window.innerHeight;
 
   items.forEach((item, index) => {
