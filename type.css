@@ -11,3 +11,23 @@ header li a{
 .mobileNav a{
     font-size: 3vw;
 }
+/*----------search------------*/
+.categories a{
+    font-size: 4vw;
+}
+
+/*----------product info------------*/
+.heading{
+    font-size: 6vw;
+}
+
+#productSize ul li{
+    font-size: 1vw;
+}
+
+.sizeBtn{
+    font-size: 13px;
+}
+.mobileNav a{
+    font-size: 3vw;
+}
