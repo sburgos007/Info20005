@@ -25,3 +25,54 @@
     background-color: #1a6a5e;
     
 }
+
+/* Header */
+header{
+    background-color: #fdf9ed;
+}
+
+header li a{
+    color: #1A685E;
+}
+
+header li a:hover{
+    color: #d9603C;
+}
+
+header #viewCart a{
+    color: #fdf9ed;
+    background-color: #1a6a5e;
+}
+
+header #viewCart a:hover{
+    background-color: #d9603C;
+}
+
+#viewCart.active a{
+    background-color: #d9603C;
+}
+
+.active {
+    color: #d9603C;
+}
+
+#searchBar input, #mobileSearchBar input{
+    color: #1a6a5e;
+    background-color: #fdf9ed;
+}
+
+.mobileNav{
+    background-color: rgba(253, 249, 237, 0.95);
+}
+
+#mobileSearchBar input{
+    background-color: #fff;
+}
+
+.mobileNav a{
+    color: #1a6a5e;
+}
+
+.hamburger .bar, .hamburger:after, .hamburger:before{
+    background-color: #1a6a5e;
+}

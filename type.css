@@ -1,0 +1,13 @@
+/*------------header-----------*/
+header li a{
+    font-size: 1.4vw;
+    text-decoration: none;
+}
+
+#mobileSearchBar input{
+    font-size: 3vw;
+}
+
+.mobileNav a{
+    font-size: 3vw;
+}
