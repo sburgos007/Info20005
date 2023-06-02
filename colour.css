@@ -1,12 +1,12 @@
-.bg-orange{
+.bgOrange{
     background-color: #d9603C;
 }
 
-.bg-green{
+.bgGreen{
     background-color: #1a6a5e;
 }
 
-.bg-white{
+.bgWhite{
     background-color: #fdf9ed;
 }
 
@@ -21,7 +21,7 @@
     color: #1a6a5e;
 }
 
-.bg-greenfade{
+.bgGreenfade{
     background-color: #1a6a5e;
     
 }
