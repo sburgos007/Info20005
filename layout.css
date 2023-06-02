@@ -33,8 +33,6 @@ header{
 
 header li a{
     color: #1A685E;
-    font-size: 1.4vw;
-    text-decoration: none;
     padding: 0vw 1vw;
 }
 
@@ -82,7 +80,6 @@ header #viewCart a:hover{
     color: #1a6a5e;
     background-color: #fdf9ed;
     width: 12vw;
-    font-size: 1.2vw;
     padding-top: 0.2vw;
 }
 
@@ -135,7 +132,6 @@ header #viewCart a:hover{
 #mobileSearchBar input{
     margin: 4vw;
     width: 58%;
-    font-size: 3vw;
     border: 0.3vw solid #1A685E;
     border-radius: 100px;
     padding: 1vw;
@@ -145,7 +141,6 @@ header #viewCart a:hover{
 }
 
 .mobileNav a{
-    font-size: 3vw;
     color: #1a6a5e;
     display: block;
     text-align: center;
@@ -179,9 +174,6 @@ header #viewCart a:hover{
     .desktop, .navbar #searchBar{
         display: none;
     }
-    header #viewCart a {
-        font-size: 2vw;
-    }
     #logo{
         width: 25%;
     }
@@ -206,7 +198,6 @@ header #viewCart a:hover{
         top: 5vw;
     }
     header #viewCart a{
-        font-size: 3.5vw;
         padding: 1.5vw 3.5vw;
         padding-top: 1.5vw;
     }
@@ -219,18 +210,12 @@ header #viewCart a:hover{
         top: 19vw;
     }
 
-    .mobileNav a{
-        font-size: 5vw;
-    }
     .hamburger .bar, .hamburger:after, .hamburger:before{
         width: 6vw;
         height: 1.3vw;
     }
     .hamburger.active:before{
         transform: rotate(-45deg) translate(-2vw, 2vw);
-    }
-    #mobileSearchBar input{
-        font-size: 4vw;
     }
     #mobileSearchBar img{
         top: 2vw;
@@ -242,7 +227,6 @@ header #viewCart a:hover{
 .orderBtn{
     display: inline-block;
     color: #fdf9ed;
-    font-size: 1.5vw;
     background-color: #d9603C;
     margin-top: 2%;
     padding: 1% 3%;
@@ -271,11 +255,6 @@ header #viewCart a:hover{
     background-size: cover;
 }
 
-.orderBtn h1 a{
-    font-size: 2.5vw;
-    color: #fdf9ed;
-}
-
 .firstPage .mobileLink{
     position: absolute;
     z-index: 0;
@@ -293,9 +272,7 @@ header #viewCart a:hover{
 .mobileLink a{
     position: relative;
     top: 3vh;
-    font-size: 15vw;
     letter-spacing: 1vw;
-    font-family: 'ramo';
 }
 
 @media (min-width: 481px) {
@@ -327,7 +304,6 @@ header #viewCart a:hover{
 
 .bestsellersCol2{
     text-align: center;
-    color: #fdf9ed;
     margin-top: 5.5%;
     margin-left: 10%;
 }
@@ -343,12 +319,10 @@ header #viewCart a:hover{
 }
 
 .bestsellersCol2 h2{
-    font-size: 3vw;
     margin-bottom: 20px;
 }
 
 .bestsellersCol2 h3{
-    font-size: 2.3vw;
     margin-top: 10px;
 }
 
@@ -368,12 +342,10 @@ header #viewCart a:hover{
     }
 
     .bestsellersCol2 h3{
-        font-size: 8vw;
         margin: 0;
     }
 
     .bestsellersCol2 p{
-        font-size: 4vw;
         margin: 2vw 0;
     }
 
@@ -383,7 +355,6 @@ header #viewCart a:hover{
     }
 
     .bestsellersCol2 .orderBtn{
-        font-size: 4vw;
         padding: 3vw 10vw;
         margin-top: 4vw;
     }
@@ -394,7 +365,6 @@ header #viewCart a:hover{
 .promo{
     width: 100%;
     padding-bottom: 1vw;
-    background-color: #d9603C;
     background-size: contain;
     position: relative;
     white-space: nowrap;
@@ -410,15 +380,10 @@ header #viewCart a:hover{
     color: #fdf9ed;
     text-align: center;
     padding-top: 1vw;
-    font-size: 3vw;
 }
 
 .scroll{
     animation: scroll 10s infinite linear;
-}
-
-.scroll h3 {
-    font-size: 2vw;
 }
 
 @keyframes scroll {
@@ -430,18 +395,11 @@ header #viewCart a:hover{
     }
 }
 
-@media(max-width: 480px){
-    .scroll h3{
-        font-size: 6vw;
-    }
-}
-
 /*------------Homepage About Us-----------*/
 
 .about .row{
     display:flex;
     align-items: center;
-    background-color: #fdf9ed;
     flex-basis: 30%;
 }
 
@@ -469,11 +427,6 @@ header #viewCart a:hover{
     margin-top: 1rem;
 }
 
-.aboutText h1{
-    font-size: 3.3vw;
-    letter-spacing: 0.1rem;
-}
-
 @media(max-width: 480px){
     .about .row{
         flex-direction: column-reverse;
@@ -491,16 +444,11 @@ header #viewCart a:hover{
     .aboutText h1{
         display: flex;
         justify-content: center;
-        font-size: 13vw;
         margin-bottom: 6vw;
     }
     .aboutText p{
         margin-left: 4vw;
         margin-right: 4vw;
-        font-size: 3vw;
-    }
-    .aboutText h3{
-        font-size: 4vw;
     }
 }
 
@@ -518,14 +466,6 @@ header #viewCart a:hover{
 
 .cluster > * {
     margin: 1rem;
-}
-
-.cluster h3{
-    font-size: 2vw;
-}
-
-.cluster p{
-    font-size: 1.3vw;
 }
 
 .box{
@@ -558,12 +498,8 @@ header #viewCart a:hover{
         padding: 10vw 0;
 
     }
-    .cluster h3{
-        font-size: 5vw;
-    }
 
     .cluster p{
-        font-size: 3vw;
         padding-bottom: 1vw;
     }
 
@@ -652,7 +588,6 @@ header #viewCart a:hover{
     .categories a{
         position: relative;
         z-index: 1;
-        font-size: 9vw;
         bottom: 5vw;
     }
 
@@ -690,7 +625,6 @@ header #viewCart a:hover{
     color: #fdf9ed;
     text-align: center;
     padding-top: 6vw;
-    font-size: 3.5vw;
 }
 
 .catBtn{
@@ -710,11 +644,9 @@ header #viewCart a:hover{
     border: 0.17vw solid #1a6a5e;
     border-radius: 40px;
     padding: 0.8% 2.7%;
-    font-size: 1.2vw;
     background: transparent;
     margin: 3%;
     margin-left: 0;
-    font-family: 'newcastle'
 }
 
 .catBtn .active, .slidertxt:hover {
@@ -769,7 +701,6 @@ header #viewCart a:hover{
   }
 
 .itemsBox h3{
-    font-size: 2vw;
     line-height: 60%;
 }
 
@@ -822,14 +753,12 @@ header #viewCart a:hover{
 .counterBtn span{
     width: 100%;
     text-align: center;
-    font-size: 1.4vw;
     margin-bottom: 0.1vw;
 }
 
 .counterBtn input{
     width: 1vw;
     height: 2vw;
-    font-size: 1.5vw;
     text-align: center;
     border: none;
     background-color: #fdf9ed;
@@ -839,7 +768,6 @@ header #viewCart a:hover{
     border: none;
     background: none;
     margin: 0;
-    font-size: 1.5vw;
 }
 
 .float{
@@ -853,7 +781,6 @@ header #viewCart a:hover{
 .itemPrice {
     position: absolute;
     right: 6em;
-    font-size: 1.4vw;
 }
 
 @media(max-width: 480px){
@@ -864,7 +791,6 @@ header #viewCart a:hover{
     
     .title{
         padding-top: 15vw;
-        font-size: 12vw;
         letter-spacing: 1vw;
     }
     
@@ -875,7 +801,6 @@ header #viewCart a:hover{
     .catBtn p{
         min-width: 28%;
         padding: 1% 2.4%;
-        font-size: 3.5vw;
     }
     
     .items{
@@ -906,7 +831,6 @@ header #viewCart a:hover{
     .itemsBox h3{
         display: grid;
         justify-content: center;
-        font-size: 4vw;
         margin: 1.4vw;
     }
 
@@ -925,7 +849,6 @@ header #viewCart a:hover{
     .itemPrice{
         display: flex;
         position: relative;
-        font-size: 3.5vw;
         justify-content: center;
         right: 0;
         margin: 2vw;
@@ -935,27 +858,18 @@ header #viewCart a:hover{
         width: 15vw;
         margin-left: 2vw;
     }
-    
-    .counterBtn button{ 
-        font-size: 4vw;
-    }
 
     .counterBtn input{
         width: inherit;
         height: inherit;
-        font-size: 4vw;
         text-align: center;
         border: none;
-        background:none
+        background:none;
     }
 
     .float{
         display: block;
         padding: 2vw 18vw;
-    }
-
-    .orderBtn h2{
-        font-size: 5vw;
     }
 }
 
@@ -1026,14 +940,12 @@ header #viewCart a:hover{
 }
 
 #cartBtn h2{
-    font-size: 2vw;
     color: #fdf9ed;
 }
 
 .additionTitle{
     margin-left: 5%;
     padding-top: 5%;
-    font-size: 2vw;
 }
 .sliderAdditions{
     margin-top: 10px;
@@ -1053,15 +965,6 @@ header #viewCart a:hover{
     flex-direction: column;
     align-items: center;
     width: 12vw;
-}
-
-.sliderContainer p{
-    font-size: 1.5vw;
-}
-
-.sliderContainer h3{
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 1.6vw;
 }
 
 .margins{
@@ -1102,26 +1005,15 @@ header #viewCart a:hover{
     }
 
     #bannerTxt p{
-        font-size: 2.9vw;
         margin-top: 6vw;
     }
 
     #bannerTxt h2{
-        font-size: 10vw;
         line-height: 10vw;
     }
 
     #bannerTxt ul li{
-        font-size: 3vw;
         margin-bottom: 4vw;
-    }
-
-    #cartBtn h2{
-        font-size: 4vw;
-    }
-
-    .additionTitle{
-        font-size: 4vw;
     }
 
     .sliderContainer{
@@ -1131,20 +1023,7 @@ header #viewCart a:hover{
 
     .sliderContainer img{
         width: 100%;
-    }
-
-    .sliderContainer p{
-        font-size: 2.5vw;
-    }
-
-    .sliderContainer h3{
-        font-size: 3vw;
-    }
-
-    .return{
-        font-size: 2.5vw;
-    }
-        
+    }        
 }
 
 /*---------------Cart----------------*/
@@ -1181,7 +1060,6 @@ header #viewCart a:hover{
 .leftCart .itemPrice{
     left: 10.5vw;
     bottom: 1.4vw;
-    font-size: 1.5vw;
 }
 
 .leftCart .icon{
@@ -1194,12 +1072,7 @@ header #viewCart a:hover{
     opacity: 60%;
 }
 
-.leftCart h2, .rightCart h2{
-    font-size: 2.5vw;
-}
-
 .leftCart h1{
-    font-size: 3vw;
     color: #1a6a5e;
     margin-bottom: 1.5vw;
 }
@@ -1215,8 +1088,6 @@ header #viewCart a:hover{
 .discCode .orderBtn{
     margin: 0;
     height: 2vw;
-    font-family: 'newcastle';
-    font-size: 1.2vw;
     padding-top: 0.7vw;
 }
 
@@ -1265,13 +1136,10 @@ header #viewCart a:hover{
     text-align: justify;
     width: 85%;
     height: 2.5vw;
-    font-size: 1.3vw;
 }
 
 .cartSummary h1{
     margin-bottom: 4%;
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 2.5vw;
 }
 
 .cartSummary .rightCol{
@@ -1281,11 +1149,6 @@ header #viewCart a:hover{
 .cartSummary .orderBtn{
     width: 50%;
     padding: 4% 10%;
-}
-
-.cartSummary .centre.border th{
-    font-size: 2vw;
-    font-family: 'newcastle';
 }
 
 @media(max-width: 480px){
@@ -1317,27 +1180,20 @@ header #viewCart a:hover{
     }
    
     .cart .itemsContent .itemPrice{
-        font-family: 'IBM Plex Mono', monospace;
-        font-size: 3.5vw;
         margin-top: 1vw;
         left: 0;
     }
 
     .cart .itemsContent h3{
         margin-top: 1.5vw;
-        font-size: 5vw;
         line-height: 6vw;
     }
     .discCode .orderBtn{
         height: 4vw;
-        font-size: 3vw;
     }
     #searchBar.codeInput{
         height: 3.6vw;
         margin-right: 3vw;
-    }
-    .discCode #searchBar input{
-        font-size:2vw;
     }
     .rightCart{
         width: 98%;
@@ -1345,18 +1201,8 @@ header #viewCart a:hover{
         margin: 0;
         margin-top: 10vw;
     }
-    .rightCart h2{
-        font-size: 5.5vw;
-    }
     .cartSummary th, td{
         width: 80%;
-        font-size: 3vw;
-    }
-    .cartSummary p{
-        font-size: 2.6vw;
-    }
-    .cartSummary .orderBtn h3{
-        font-size: 3.5vw;
     }
     .leftCart .counterBtn{
         width: 15vw;
@@ -1679,5 +1525,4 @@ input::-webkit-inner-spin-button {
     .confirmation th, td{
         font-size: 2vw;
     }
-
 }

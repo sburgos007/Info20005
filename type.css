@@ -11,10 +11,87 @@ header li a{
 .mobileNav a{
     font-size: 3vw;
 }
+
+/*------------footer-----------*/
+
+.cluster h3{
+    font-size: 2vw;
+}
+
+.cluster p{
+    font-size: 1.3vw;
+}
+
+/*-------homepage/index-------*/
+.orderBtn{
+    font-size: 1.5vw;
+}
+
+.orderBtn h1 a{
+    font-size: 2.5vw;
+}
+
+.mobileLink a{
+    font-size: 15vw;
+    font-family: 'ramo';
+}
+
+.bestsellersCol2 h2{
+    font-size: 3vw;
+}
+
+.bestsellersCol2 h3{
+    font-size: 2.3vw;
+}
+
+.promotext{
+    font-size: 3vw;
+}
+
+.scroll h3 {
+    font-size: 2vw;
+}
+
+.aboutText h1{
+    font-size: 3.3vw;
+    letter-spacing: 0.1rem;
+}
+
 /*----------search------------*/
 .categories a{
     font-size: 4vw;
 }
+
+/*----------menu------------*/
+.title{
+    font-size: 3.5vw;
+}
+
+.catBtn p{
+    font-size: 1.2vw;
+    font-family: 'newcastle'
+}
+
+.itemsBox h3{
+    font-size: 2vw;
+}
+
+.counterBtn span{
+    font-size: 1.4vw;
+}
+
+.counterBtn input{
+    font-size: 1.5vw;
+}
+
+.counterBtn button{
+    font-size: 1.5vw;
+}
+
+.itemPrice {
+    font-size: 1.4vw;
+}
+
 
 /*----------product info------------*/
 .heading{
@@ -27,4 +104,219 @@ header li a{
 
 .sizeBtn{
     font-size: 13px;
+}
+
+#cartBtn h2{
+    font-size: 2vw;
+}
+
+.additionTitle{
+    font-size: 2vw;
+}
+
+.sliderContainer p{
+    font-size: 1.5vw;
+}
+
+.sliderContainer h3{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.6vw;
+}
+
+/*----------Cart------------*/
+.leftCart .itemPrice{
+    font-size: 1.5vw;
+}
+
+.leftCart h2, .rightCart h2{
+    font-size: 2.5vw;
+}
+
+.leftCart h1{
+    font-size: 3vw;
+}
+
+.discCode .orderBtn{
+    font-family: 'newcastle';
+    font-size: 1.2vw;
+}
+
+.cartSummary th, td{
+    font-size: 1.3vw;
+}
+
+.cartSummary h1{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 2.5vw;
+}
+
+.cartSummary .centre.border th{
+    font-size: 2vw;
+    font-family: 'newcastle';
+}
+
+#searchBar input{
+    font-size: 1.5vw;
+}
+
+/*----------Media Queries------------*/
+@media(max-width: 768px){
+    header #viewCart a {
+        font-size: 2vw;
+    }
+}
+/*mobile*/
+@media(max-width: 480px){
+    /*header*/
+    header #viewCart a{
+        font-size: 3.5vw;
+    }
+
+    .mobileNav a{
+        font-size: 5vw;
+    }
+    
+    #mobileSearchBar input{
+        font-size: 4vw;
+    }
+
+    /*footer*/
+    .cluster h3{
+        font-size: 5vw;
+    }
+
+    .cluster p{
+        font-size: 3vw;
+    }
+
+
+    /*homepage*/
+    .bestsellersCol2 h3{
+        font-size: 8vw;
+    }
+
+    .bestsellersCol2 p{
+        font-size: 4vw;
+    }
+
+    .bestsellersCol2 .orderBtn{
+        font-size: 4vw;
+    }
+
+    .scroll h3{
+        font-size: 6vw;
+    }
+
+    .aboutText h1{
+        font-size: 13vw;
+    }
+
+    .aboutText p{
+        font-size: 3vw;
+    }
+
+    .aboutText h3{
+        font-size: 4vw;
+    }
+
+    /*search*/
+    .categories a{
+        font-size: 9vw;
+    }
+
+    /*menu*/
+    .title{
+        font-size: 12vw;
+    }
+
+    .catBtn p{
+        font-size: 3.5vw;
+    }
+
+    .itemsBox h3{
+        font-size: 4vw;
+    }
+
+    .itemPrice{
+        font-size: 3.5vw;
+    }
+
+    .counterBtn button{ 
+        font-size: 4vw;
+    }
+
+    .counterBtn input{
+        font-size: 4vw;
+    }
+
+    .orderBtn h2{
+        font-size: 5vw;
+    }
+
+    /*product banner*/
+    #bannerTxt p{
+        font-size: 2.9vw;
+    }
+
+    #bannerTxt h2{
+        font-size: 10vw;
+    }
+
+    #bannerTxt ul li{
+        font-size: 3vw;
+    }
+
+    #cartBtn h2{
+        font-size: 4vw;
+    }
+
+    .additionTitle{
+        font-size: 4vw;
+    }
+
+    .sliderContainer p{
+        font-size: 2.5vw;
+    }
+
+    .sliderContainer h3{
+        font-size: 3vw;
+    }
+
+    .return{
+        font-size: 2.5vw;
+    }
+
+    /*cart*/
+    .cart .itemsContent .itemPrice{
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 3.5vw;
+    }
+
+    .cart .itemsContent h3{
+        font-size: 5vw;
+    }
+
+    .discCode .orderBtn{
+        font-size: 3vw;
+    }
+
+    .discCode #searchBar input{
+        font-size:2vw;
+    }
+
+    .rightCart h2{
+        font-size: 5.5vw;
+    }
+
+    .cartSummary th, td{
+        font-size: 3vw;
+    }
+
+    .cartSummary p{
+        font-size: 2.6vw;
+    }
+
+    .cartSummary .orderBtn h3{
+        font-size: 3.5vw;
+    }
 }
