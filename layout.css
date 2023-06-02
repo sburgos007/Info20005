@@ -1221,7 +1221,6 @@ header #viewCart a:hover{
 
 #payDetails h2{
     margin-top: 3vw;
-    font-size: 2vw;
 }
 
 #payDetails h3{
@@ -1254,10 +1253,6 @@ header #viewCart a:hover{
 
 .leftCheck{
     width: 40vw;
-}
-
-.leftCheck p{
-    font-size: 1.5vw;
 }
 
 input::-webkit-outer-spin-button,
@@ -1302,10 +1297,6 @@ input::-webkit-inner-spin-button {
     border-radius: 100px;
     padding: 0vw 1vw;
     align-items: center;
-}
-
-.paybutton p{
-    font-size: 1.3vw;
 }
 
 .dot {
@@ -1355,7 +1346,6 @@ input::-webkit-inner-spin-button {
 
 .cardInfo input{
     height: 2vw;
-    font-size: 1.5vw;
   }
 
 #cardMini input{
@@ -1384,13 +1374,8 @@ input::-webkit-inner-spin-button {
     }
 
     #payDetails h2{
-        font-size: 5vw;
         text-align: center;
         margin-top: 7vw;
-    }
-
-    .leftCheck label, .leftCheck p, .leftCheck h3{
-        font-size: 3vw;
     }
 
     .minicontainer1 p{
@@ -1413,16 +1398,10 @@ input::-webkit-inner-spin-button {
 
     .cartSummary p{
         padding-right: 14vw;
-        font-size: 2vw;
     }
 
     .cartSummary th{
-        font-size: 3vw;
         width: 80%;
-    }
-
-    .cartSummary a{
-        font-size: 4vw;
     }
 
     #cardDetails{
@@ -1436,7 +1415,6 @@ input::-webkit-inner-spin-button {
 
     .cardInfo input{
         height: 4vw;
-        font-size: 3vw;
     }
     
     #cardMini{
@@ -1460,7 +1438,6 @@ input::-webkit-inner-spin-button {
     border: 3px solid #cfdcd0;
     padding-top: 4vw;
     border-radius: 40px;
-    font-size: 1.4vw;
     background: transparent;
     margin: 3vw 20vw;
 }
@@ -1474,17 +1451,14 @@ input::-webkit-inner-spin-button {
 
 .confirmation h2{
     margin-top: 5%;
-    font-size: 2.5vw;
 }
 
 .confirmation p{
-    font-size: 1.5vw;
     margin: 20px;
 }
 
 .confirmation h3{
     margin: 1vw -2vw;
-    font-size: 2vw;
 }
 
 .confirmation .orderBtn{
@@ -1498,31 +1472,9 @@ input::-webkit-inner-spin-button {
     height: 3vw;
 }
 
-.confirmation .centre.border th{
-    font-size: 2vw;
-    font-family: 'newcastle';
-}
-
 @media(max-width: 480px){
     .confirmation{
         margin: 3vw 10vw;
         padding: 4vh;
-    }
-
-    .confirmation h3{
-        font-size: 4vw;
-    }
-
-    .orderBtn h3{
-        font-size: 3vw ;
-    }
-
-    .confirmation p{
-        font-size: 2.5vw;
-        margin: 3vw 7vw
-    }
-
-    .confirmation th, td{
-        font-size: 2vw;
     }
 }

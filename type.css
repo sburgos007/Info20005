@@ -159,6 +159,47 @@ header li a{
     font-size: 1.5vw;
 }
 
+/*----------Checkout------------*/
+#payDetails h2{
+    font-size: 2vw;
+}
+
+.leftCheck p{
+    font-size: 1.5vw;
+}
+
+.paybutton p{
+    font-size: 1.3vw;
+}
+
+.cardInfo input{
+    font-size: 1.5vw;
+  }
+
+/*---------Confirmation----------*/
+.confirmation{
+    font-size: 1.4vw;
+}
+
+.confirmation h2{
+    font-size: 2.5vw;
+}
+
+.confirmation p{
+    font-size: 1.5vw;
+}
+
+.confirmation h3{
+    font-size: 2vw;
+}
+
+.confirmation .centre.border th{
+    font-size: 2vw;
+    font-family: 'newcastle';
+}
+
+
+
 /*----------Media Queries------------*/
 @media(max-width: 768px){
     header #viewCart a {
@@ -318,5 +359,48 @@ header li a{
 
     .cartSummary .orderBtn h3{
         font-size: 3.5vw;
+    }
+
+    /*Chechout*/
+    #payDetails h2{
+        font-size: 5vw;
+    }
+
+    .leftCheck label, .leftCheck p, .leftCheck h3{
+        font-size: 3vw;
+    }
+
+    .cartSummary p{
+        font-size: 2vw;
+    }
+
+    .cartSummary th{
+        font-size: 3vw;
+    }
+
+    .cartSummary a{
+        font-size: 4vw;
+    }
+
+    .cardInfo input{
+        font-size: 3vw;
+    }
+
+    /*Confirmation*/
+    .confirmation h3{
+        font-size: 4vw;
+    }
+
+    .orderBtn h3{
+        font-size: 3vw ;
+    }
+
+    .confirmation p{
+        font-size: 2.5vw;
+        margin: 3vw 7vw
+    }
+
+    .confirmation th, td{
+        font-size: 2vw;
     }
 }
