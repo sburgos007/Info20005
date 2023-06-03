@@ -76,3 +76,104 @@ header #viewCart a:hover{
 .hamburger .bar, .hamburger:after, .hamburger:before{
     background-color: #1a6a5e;
 }
+/*Footer*/
+.cluster {
+    background-color: #1a6a5e;
+    color: #fdf9ed;
+}
+
+/*Homepage*/
+.orderBtn{
+    color: #fdf9ed;
+    background-color: #d9603C;
+}
+
+/*Search*/
+
+/*Menu*/
+.title{
+    color: #fdf9ed;
+    text-align: center;
+    padding-top: 6vw;
+}
+
+.catBtn p{
+    color: #1a6a5e;
+}
+
+.catBtn .active, .slidertxt:hover {
+    background-color: #d9603C;
+    color: #fdf9ed;
+}
+
+.menuList{
+    background-color: #fdf9ed;
+}
+
+.itemsBox{
+    color: #fdf9ed;
+    background: #1a6a5e;
+}
+
+.itemsBox .menuImg{
+    background: #fdf9ed;
+}
+
+.itemsBox .icon img {
+    background-color: transparent;
+    filter: brightness(0) invert(1);
+}
+
+.counterBtn{
+    background-color: #fdf9ed;
+    color: #1a6a5e;
+}
+
+.counterBtn input{
+    background-color: #fdf9ed;
+}
+
+/*Product*/
+.sizeBtn{
+    text-decoration: none;
+    background: transparent;
+}
+.sizeBtn:hover{
+    background-color: #fdf9ed;
+    color: #1A685E;
+}
+
+#cartBtn{
+    color: #fdf9ed
+}
+
+#cartBtn h2{
+    color: #fdf9ed;
+}
+
+/*Cart*/
+.leftCart h1{
+    color: #1a6a5e;
+}
+
+.rightCart{
+    color: #1a6a5e;
+}
+
+
+/*Checkout*/
+
+#dot1, #dot2, #dot3, #dot{
+    background-color: #fdf9ed;
+}
+
+#dot1.clicked, #dot2.clicked, #dot3.clicked, #dot4.clicked{
+    background-color: #1a6a5e;
+}
+
+.greenhover:hover{
+    background: #1A685E;
+    color: #fdf9ed;
+  }
+
+/*Confirmation*/

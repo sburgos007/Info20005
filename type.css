@@ -150,7 +150,7 @@ header li a{
     font-size: 2.5vw;
 }
 
-.cartSummary .centre.border th{
+.cartSummary .centre .border th{
     font-size: 2vw;
     font-family: 'newcastle';
 }
@@ -192,13 +192,6 @@ header li a{
 .confirmation h3{
     font-size: 2vw;
 }
-
-.confirmation .centre.border th{
-    font-size: 2vw;
-    font-family: 'newcastle';
-}
-
-
 
 /*----------Media Queries------------*/
 @media(max-width: 768px){
@@ -387,7 +380,7 @@ header li a{
     }
 
     /*Confirmation*/
-    .confirmation h3{
+    .confirmation h3, .confirmation h2{
         font-size: 4vw;
     }
 
