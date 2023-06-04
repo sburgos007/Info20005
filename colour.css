@@ -176,4 +176,8 @@ header #viewCart a:hover{
     color: #fdf9ed;
   }
 
+.leftCheck span, #submitError{
+    color: red;
+}
+
 /*Confirmation*/

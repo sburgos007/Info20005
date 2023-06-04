@@ -842,6 +842,10 @@ input::-webkit-inner-spin-button {
     margin-right: 0.5vw;
 }
 
+.errorMsg{
+    margin-left: 4px;
+}
+
 .greenhover{
     border: 1px solid #1A685E;
     border-radius: 100px;
@@ -862,10 +866,6 @@ input::-webkit-inner-spin-button {
 #cardMini p{
     border: none;
     padding: initial;
-}
-
-#CVV{
-    margin-right: 6vw;
 }
 
 @media(max-width: 480px){
