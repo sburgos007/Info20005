@@ -346,15 +346,15 @@ header #viewCart a{
     }
 
     .catPizza a, .catVegan a, .catDesserts a{
-        -webkit-text-stroke: 0.2px #fdf9ed;
+        -webkit-text-stroke: 0.2vw #fdf9ed;
     }
 
     .catPopular a, .catDrinks a{
-        -webkit-text-stroke: 0.2px #d9603C;
+        -webkit-text-stroke: 0.2vw #d9603C;
     }
 
     .catBurgers a{
-        -webkit-text-stroke: 0.2px #1a6a5e ;
+        -webkit-text-stroke: 0.2vw #1a6a5e ;
     }
 
     .break{
@@ -395,9 +395,13 @@ header #viewCart a{
     border: 0.2vw solid #d9603C;
 }
 
-.catSlider, .cat-carousel{
+.catSlider, .catCarousel{
     white-space: nowrap;
 }
+
+.catCarousel::-webkit-scrollbar {
+    display: none;
+  }
 
 .items{
     column-gap: 5%;
@@ -510,7 +514,7 @@ header #viewCart a{
     }
 
     .itemsBox h3{
-        margin: 1.4vw;
+        margin: 1.4vw -4vw;
     }
 
     .menuList .itemsBox .icon img {
@@ -574,9 +578,10 @@ header #viewCart a{
     border: 1px solid #fff;
     border-radius: 20px;
     margin-top: 10px;
+    cursor: pointer;
 }
 
-.sizeBtn:hover{
+.sizeBtn.selected{
     border: 1px solid #fdf9ed;
 }
 
@@ -596,6 +601,10 @@ header #viewCart a{
     margin-right: 0;
     white-space: nowrap;
 }
+
+.sliderAdditions::-webkit-scrollbar {
+    display: none;
+  }
 
 .margins{
     margin-left: 2%;
@@ -842,6 +851,10 @@ input::-webkit-inner-spin-button {
     margin-right: 0.5vw;
 }
 
+.errorMsg{
+    margin-left: 4px;
+}
+
 .greenhover{
     border: 1px solid #1A685E;
     border-radius: 100px;
@@ -862,10 +875,6 @@ input::-webkit-inner-spin-button {
 #cardMini p{
     border: none;
     padding: initial;
-}
-
-#CVV{
-    margin-right: 6vw;
 }
 
 @media(max-width: 480px){
@@ -930,14 +939,10 @@ input::-webkit-inner-spin-button {
 }
 
 .centre{
-    padding: 10px;
+    padding: 6px 10px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-}
-
-.confirmation h2{
-    margin-top: 5%;
 }
 
 .confirmation p{

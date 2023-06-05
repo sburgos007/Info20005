@@ -164,7 +164,7 @@ header li a{
     font-size: 2vw;
 }
 
-.leftCheck p{
+.leftCheck p, .leftCheck input{
     font-size: 1.5vw;
 }
 
@@ -175,6 +175,10 @@ header li a{
 .cardInfo input{
     font-size: 1.5vw;
   }
+
+.errorMsg, #submitError{
+    font-size: 1vw;
+}
 
 /*---------Confirmation----------*/
 .confirmation{
@@ -354,7 +358,7 @@ header li a{
         font-size: 3.5vw;
     }
 
-    /*Chechout*/
+    /*Checkout*/
     #payDetails h2{
         font-size: 5vw;
     }
@@ -375,8 +379,12 @@ header li a{
         font-size: 4vw;
     }
 
-    .cardInfo input{
+    .cardInfo input, .leftCheck input{
         font-size: 3vw;
+    }
+
+    .errorMsg, #submitError{
+        font-size: 2vw;
     }
 
     /*Confirmation*/

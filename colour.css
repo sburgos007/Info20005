@@ -138,7 +138,7 @@ header #viewCart a:hover{
     text-decoration: none;
     background: transparent;
 }
-.sizeBtn:hover{
+.sizeBtn.selected{
     background-color: #fdf9ed;
     color: #1A685E;
 }
@@ -178,5 +178,9 @@ header #viewCart a:hover{
     background: #1A685E;
     color: #fdf9ed;
   }
+
+.leftCheck span, #submitError{
+    color: red;
+}
 
 /*Confirmation*/
