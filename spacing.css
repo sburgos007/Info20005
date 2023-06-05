@@ -346,15 +346,15 @@ header #viewCart a{
     }
 
     .catPizza a, .catVegan a, .catDesserts a{
-        -webkit-text-stroke: 0.2px #fdf9ed;
+        -webkit-text-stroke: 0.2vw #fdf9ed;
     }
 
     .catPopular a, .catDrinks a{
-        -webkit-text-stroke: 0.2px #d9603C;
+        -webkit-text-stroke: 0.2vw #d9603C;
     }
 
     .catBurgers a{
-        -webkit-text-stroke: 0.2px #1a6a5e ;
+        -webkit-text-stroke: 0.2vw #1a6a5e ;
     }
 
     .break{
@@ -930,14 +930,10 @@ input::-webkit-inner-spin-button {
 }
 
 .centre{
-    padding: 10px;
+    padding: 6px 10px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-}
-
-.confirmation h2{
-    margin-top: 5%;
 }
 
 .confirmation p{
