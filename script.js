@@ -49,7 +49,7 @@ function validatePhone(){
     return false
   }
   if(phone.length !== 10){
-    phoneError.innerHTML = '*10 digits required';
+    phoneError.innerHTML = '*Please enter valid phone number';
     return false
   }
   phoneError.innerHTML = '';
@@ -208,6 +208,7 @@ function plus3() {
 function minus3() {
   document.getElementById('number3').stepDown();
 }
+
 
 // Adding pop up section for card input details----------------------------
 function showDetails() {
