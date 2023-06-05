@@ -8,6 +8,9 @@ menu_btn.addEventListener('click', function () {
   mobile_menu.classList.toggle('active');
 });
 
+
+
+
 //  Validation of forms ---------------------------------------------------
 function isInputNumber(evt){
   var ch = String.fromCharCode(evt.which);
@@ -148,6 +151,8 @@ function validateForm(){
 }
 
 
+
+
 // About us header change -------------------------------------------------
 // Get the elements
 const homeLink = document.querySelector('header .navbar li:nth-child(1) a');
@@ -208,6 +213,8 @@ function plus3() {
 function minus3() {
   document.getElementById('number3').stepDown();
 }
+
+
 
 
 // Adding pop up section for card input details----------------------------

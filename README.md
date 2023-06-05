@@ -10,11 +10,6 @@ Bad websites:
 2. https://cremornestreetbakers.com.au/cart - Sean 
 3. really bad https://torontocupcake.com/index.html
 
-idk websites:
-https://mandurah-steak-house.business.site/?utm_source=gmb&utm_medium=referral#details 
-
-https://her-little-patisserie.square.site/?location=11ec616bb14d747c97e4ac1f6bbba828
-
-design webs:
-https://www.teddypickerwerribee.com/
-https://www.babypizza.com.au/
+design inspirations:
+1. https://www.teddypickerwerribee.com/
+2. https://www.babypizza.com.au/
