@@ -295,13 +295,6 @@ header #viewCart a{
     width: 60vw;
 }
 
-.halftone{
-    position: absolute;
-    width: 100%;
-    opacity: 80%;
-    overflow: hidden;
-}
-
 #productSize ul li{
     list-style: none;
     display: inline-block;
@@ -629,12 +622,7 @@ header #viewCart a{
     .productBanner{
         display: block;
     }
-
-    .halftone{
-        position: relative;
-        width: 300%;
-    }
-
+    
     .pizzaImg{
         position: absolute;
         width: 80%;
