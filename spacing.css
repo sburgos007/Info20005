@@ -514,7 +514,7 @@ header #viewCart a{
     }
 
     .itemsBox h3{
-        margin: 1.4vw 0vw;
+        margin: 1.4vw -4vw;
     }
 
     .menuList .itemsBox .icon img {
