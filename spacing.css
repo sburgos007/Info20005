@@ -395,9 +395,13 @@ header #viewCart a{
     border: 0.2vw solid #d9603C;
 }
 
-.catSlider, .cat-carousel{
+.catSlider, .catCarousel{
     white-space: nowrap;
 }
+
+.catCarousel::-webkit-scrollbar {
+    display: none;
+  }
 
 .items{
     column-gap: 5%;
@@ -574,9 +578,10 @@ header #viewCart a{
     border: 1px solid #fff;
     border-radius: 20px;
     margin-top: 10px;
+    cursor: pointer;
 }
 
-.sizeBtn:hover{
+.sizeBtn.selected{
     border: 1px solid #fdf9ed;
 }
 
@@ -596,6 +601,10 @@ header #viewCart a{
     margin-right: 0;
     white-space: nowrap;
 }
+
+.sliderAdditions::-webkit-scrollbar {
+    display: none;
+  }
 
 .margins{
     margin-left: 2%;

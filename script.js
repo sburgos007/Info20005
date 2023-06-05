@@ -260,10 +260,7 @@ function slideInItems() {
 window.addEventListener('scroll', slideInItems);
 window.addEventListener('DOMContentLoaded', slideInItems);
 
-
-
-
-// Change colour payment buttons -------------
+// Change colour of buttons -------------
 
 const dots = document.querySelectorAll('.dot');
 let currentDot = null;
@@ -275,5 +272,18 @@ dots.forEach((dot) => {
     }
     dot.classList.add('clicked');
     currentDot = dot;
+  });
+});
+
+const size = document.querySelectorAll('.sizeBtn');
+let currentSize = null;
+
+size.forEach((size) => {
+  size.addEventListener('click', () => {
+    if (currentSize) {
+      currentSize.classList.remove('selected');
+    }
+    size.classList.add('selected');
+    currentSize = size;
   });
 });

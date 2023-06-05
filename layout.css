@@ -263,7 +263,6 @@ header #viewCart a{
     display: flex;
     justify-items: center;
     align-items: center;
-    cursor: pointer;
 }
 
 .counterBtn input{
@@ -469,6 +468,7 @@ header #viewCart a{
     height: 2vw;
     width: 2vw;
     display: inline-block;
+    cursor: pointer;
 }
 
 #cardDetails{
