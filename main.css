@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'newcastle';
     src:
-         url('fontAssets/newcastle_basic_clean-webfont.woff') format('woff');
+         url('/fontAssets/newcastle_basic_clean-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -10,7 +10,7 @@
 @font-face {
     font-family: 'ramo';
     src:
-         url('fontAssets/ramo-demagnolia-webfont.woff') format('woff');
+         url('/fontAssets/ramo-demagnolia-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
