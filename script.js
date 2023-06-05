@@ -275,6 +275,19 @@ dots.forEach((dot) => {
   });
 });
 
+const time = document.querySelectorAll('.greenhover');
+let currentTime = null;
+
+time.forEach((time) => {
+  time.addEventListener('click', () => {
+    if (currentTime) {
+      currentTime.classList.remove('toggled');
+    }
+    time.classList.add('toggled');
+    currentTime = time;
+  });
+});
+
 const size = document.querySelectorAll('.sizeBtn');
 let currentSize = null;
 
