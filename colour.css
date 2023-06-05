@@ -174,7 +174,7 @@ header #viewCart a:hover{
     background-color: #1a6a5e;
 }
 
-.greenhover:hover{
+.greenhover.toggled{
     background: #1A685E;
     color: #fdf9ed;
   }
