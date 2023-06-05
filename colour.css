@@ -160,6 +160,9 @@ header #viewCart a:hover{
     color: #1a6a5e;
 }
 
+.leftCart .discCode .orderBtn.bgGreen{
+    background-color: #1A685E;
+}
 
 /*Checkout*/
 
